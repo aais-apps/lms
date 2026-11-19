@@ -1,0 +1,1 @@
+var e=(e=window.location.pathname+window.location.search)=>`/login?redirect-to=${encodeURIComponent(e)}`,t=t=>{window.location.href=e(t)};export{t as n,e as t};

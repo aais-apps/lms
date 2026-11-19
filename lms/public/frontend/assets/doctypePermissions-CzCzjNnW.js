@@ -1,0 +1,1 @@
+var e=(e,t,n=`read`)=>!!e?.data?.permissions?.[t]?.[n],t=e=>!!e?.data?.has_lms_role,n=t=>e(t,`Discussion Topic`)&&e(t,`Discussion Reply`);export{e as n,t as r,n as t};

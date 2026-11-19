@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="{{ boot.lang }}" dir="{{ boot.text_direction }}">
+	<head>
+		<meta charset="UTF-8" />
+		<script>
+			/* The document is painted from --surface-base, which only resolves to
+			   the dark value once <html data-theme="dark"> exists. src/utils/theme.ts
+			   sets that attribute, but it cannot run until the app bundle executes —
+			   measured on a production build at 390px with the bundle blocked, the
+			   stylesheet alone paints srgb(255,255,255), and the bundle lands about
+			   300ms after first paint (1.1s at 6x CPU throttle). So a dark-mode user
+			   gets a full-screen white flash on every cold load. Resolving the stored
+			   preference here, before the stylesheet can paint, is the only place
+			   early enough: the preference lives in localStorage, so the server
+			   cannot render it into <html> the way frappe/www/desk.html does.
+			   Keep these rules in step with src/utils/theme.ts —
+			   src/tests/themeBootstrap.test.ts asserts the two agree. */
+			try {
+				var preference = localStorage.getItem('themePreference')
+				if (
+					preference !== 'light' &&
+					preference !== 'dark' &&
+					preference !== 'system'
+				) {
+					var legacy = localStorage.getItem('theme')
+					preference =
+						legacy === 'dark' || legacy === 'light' ? legacy : 'system'
+				}
+				document.documentElement.setAttribute(
+					'data-theme',
+					preference === 'system'
+						? window.matchMedia('(prefers-color-scheme: dark)').matches
+							? 'dark'
+							: 'light'
+						: preference
+				)
+			} catch (error) {
+				/* Private-mode localStorage throws; the light default still applies. */
+			}
+		</script>
+		<link rel="icon" href="{{ favicon }}" />
+		<link rel="manifest" href="/api/method/lms.lms.api.get_pwa_manifest" />
+		<link rel="apple-touch-icon" href="/assets/lms/frontend/assets/apple-icon-180-D_n3lJOH.png" />
+		<meta name="mobile-web-app-capable" content="yes" />
+		<meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)" />
+		<!-- Mirrors frappe-ui dark --surface-base, oklch(0.205 0 0) -->
+		<meta name="theme-color" content="#171717" media="(prefers-color-scheme: dark)" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+		<meta name="msapplication-navbutton-color" content="#ffffff" />
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-2048-2732-BjakkKKb.jpg"
+			media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-2732-2048-EzPQmp1m.jpg"
+			media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-1668-2388-2B803rpN.jpg"
+			media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-2388-1668-BofeGhV_.jpg"
+			media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-1536-2048-DWf2LykR.jpg"
+			media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-2048-1536-DAUDlzu8.jpg"
+			media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-1640-2360-Dh-YwmK7.jpg"
+			media="(device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-2360-1640-Cbr-_bw-.jpg"
+			media="(device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-1668-2224-BloaNeC-.jpg"
+			media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-2224-1668-VL9eJ66f.jpg"
+			media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-1620-2160-BcBrHuwl.jpg"
+			media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-2160-1620-BiOL-rzg.jpg"
+			media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-1488-2266-oCwhNquF.jpg"
+			media="(device-width: 744px) and (device-height: 1133px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-2266-1488-MbTvgHmX.jpg"
+			media="(device-width: 744px) and (device-height: 1133px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-1320-2868-D7rS3PbF.jpg"
+			media="(device-width: 440px) and (device-height: 956px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-2868-1320-Bq_zwKIb.jpg"
+			media="(device-width: 440px) and (device-height: 956px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-1206-2622-CsHAWTcr.jpg"
+			media="(device-width: 402px) and (device-height: 874px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-2622-1206-Bc7YeGWe.jpg"
+			media="(device-width: 402px) and (device-height: 874px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-1290-2796-BQw-p_Zz.jpg"
+			media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-2796-1290-DRM7pqfd.jpg"
+			media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-1179-2556-CYjIoO1a.jpg"
+			media="(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-2556-1179-B5cAG8BK.jpg"
+			media="(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-1170-2532-MJgQ9zjx.jpg"
+			media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-2532-1170-DyRAcsgg.jpg"
+			media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-1284-2778-C-TDdDbQ.jpg"
+			media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-2778-1284-nkoKAVGG.jpg"
+			media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-1125-2436-C3w0dSnH.jpg"
+			media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-2436-1125-UBc56n4I.jpg"
+			media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-1242-2688-Bzfl4WPX.jpg"
+			media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-2688-1242-DNx5UzH6.jpg"
+			media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-828-1792-CitdGgZY.jpg"
+			media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-1792-828-Cc6wR60-.jpg"
+			media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-1242-2208-D1K-FjW8.jpg"
+			media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-2208-1242-B0cjc1eL.jpg"
+			media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-750-1334-Bc9LfBe-.jpg"
+			media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-1334-750-ZapWTaEg.jpg"
+			media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-640-1136-BR98aM7H.jpg"
+			media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+		/>
+		<link
+			rel="apple-touch-startup-image"
+			href="/assets/lms/frontend/assets/apple-splash-1136-640-BocYFD09.jpg"
+			media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+		/>
+		<title>{{ title | e }}</title>
+		<meta name="title" content="{{ meta.title | e }}" />
+		<meta name="image" content="{{ meta.image | e }}" />
+		<meta name="description" content="{{ meta.description | e }}" />
+		<meta name="keywords" content="{{ meta.keywords | e }}" />
+		<meta property="og:title" content="{{ meta.title | e }}" />
+		<meta property="og:image" content="{{ meta.image | e }}" />
+		<meta property="og:description" content="{{ meta.description | e }}" />
+		<meta name="twitter:title" content="{{ meta.title | e }}" />
+		<meta name="twitter:image" content="{{ meta.image | e }}" />
+		<meta name="twitter:description" content="{{ meta.description | e }}" />
+		<script type="module" crossorigin src="/assets/lms/frontend/assets/index-Coxt2Msq.js"></script>
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/rolldown-runtime-BCiCTKAo.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/vue.runtime.esm-bundler-DtIDEzGL.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/Button-CZ1-Drhn.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/debounce-CBHZy1lM.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/config-BnDYwH6g.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/resources-CpPJMwUK.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/listResource-ivnsSy04.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/documentResource-BcCxaB4J.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/utils-BAiKLCew.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/ItemListRow-BAhnCJsk.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/InputDescription-v8JUKq7M.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/TextInput-CM-roBCj.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/LoadingIndicator-DhO_ZO6s.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/dayjs-BJTWZm1Z.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/DateTimePicker-C8IXtXxM.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/Switch-Dng0jPF1.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/RovingFocusGroup-D4EXjqgb.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/Dropdown-B9S0aq5C.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/Dialog-DuXb7C-7.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/nativeElements-Apxfrjek.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/FormControl-Q7Uhjfll.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/purify.es-CFw8X_5B.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/toast-BgMkQY7M.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/frappeRequest-CsmrVMil.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/call-DjOmclPb.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/Badge-jAD5SKE8.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/Skeleton-DEarrak9.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/ErrorMessage-DKcnCB9d.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/Tooltip-BHaLvy3s.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/useFileUpload-BJhmTSab.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/w3c-keyname-BOAvb0qz.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/marked.esm-BPviFSZ1.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/RichTextEditor-4FECkabM.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/pinia-D0hLeeUG.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/session-B4m7MyjA.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/settings-jzGQqxaU.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/basePath-Ckz6pvkB.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/preload-helper-DkQxfJuA.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/safeUrl-CdIuKdYt.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/quizSummary-DeY_F1zj.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/dayjs-B-TwIJBv.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/format-Bv_nv4lR.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/schedule-DWyIwLvk.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/resource-zADK72q0.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/composables-BzCrXRY2.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/ResponsiveListView-CfpJA1Am.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/EmptyStateLayout-DdvuTAHd.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/Quiz-Dtp-uBIH.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/Tabs-C154chVd.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/Rating-BXti6qYk.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/RatingField-BTAMB4vU.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/PageHeader-CAiiGJRQ.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/purify.es-BF8Qe8F-.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/useKeyboardShortcuts-rRYaCOnn.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/SwitchRow-DhDleI6D.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/BooleanSwitch-CT43lwyT.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/Link-BqRMcqsK.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/openExternal-OYP1g5J3.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/dist-Tf56zdID.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/dist-JUGb_f_7.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/dist-_JkR1-If.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/code-editor-B59sLAz2.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/login-C4vmSHUe.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/ShortcutTooltip-CPLCIm2f.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/useFormRoute-DL3UM0lX.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/inertHtml-DgCGgomP.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/utils-CbR1faAo.js">
+		<link rel="modulepreload" crossorigin href="/assets/lms/frontend/assets/Password-BEiY8fA_.js">
+		<link rel="stylesheet" crossorigin href="/assets/lms/frontend/assets/Button-BVkV0Lbx.css">
+		<link rel="stylesheet" crossorigin href="/assets/lms/frontend/assets/DateTimePicker-DcmZpwSX.css">
+		<link rel="stylesheet" crossorigin href="/assets/lms/frontend/assets/Dropdown-B1tZgOiP.css">
+		<link rel="stylesheet" crossorigin href="/assets/lms/frontend/assets/Dialog-C-Jv5HzQ.css">
+		<link rel="stylesheet" crossorigin href="/assets/lms/frontend/assets/RichTextEditor-Cdprx4pg.css">
+		<link rel="stylesheet" crossorigin href="/assets/lms/frontend/assets/Rating-DXFj9f7H.css">
+		<link rel="stylesheet" crossorigin href="/assets/lms/frontend/assets/code-editor-X4JY5UH6.css">
+		<link rel="stylesheet" crossorigin href="/assets/lms/frontend/assets/utils-UQ20S9Sx.css">
+		<link rel="stylesheet" crossorigin href="/assets/lms/frontend/assets/index-vBv8kDXN.css">
+	<script id="vite-plugin-pwa:register-sw" src="/assets/lms/frontend/registerSW.js"></script></head>
+	<body class="sm:overscroll-y-none">
+		<div id="app">
+			<div id="seo-content">
+				<h1>{{ meta.title | e }}</h1>
+				<p>
+					{{ meta.description | e }}
+				</p>
+				<a href="{{ meta.link | e }}">Know More</a>
+			</div>
+		</div>
+		<script>
+			document.getElementById('seo-content').style.display = 'none';
+		</script>
+	
+          <script>
+              {% for key in boot %}
+              window["{{ key }}"] = {{ boot[key] | tojson }};
+              {% endfor %}
+          </script>
+          </body>
+          
+</html>

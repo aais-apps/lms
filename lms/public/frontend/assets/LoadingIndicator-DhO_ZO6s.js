@@ -1,0 +1,1 @@
+import{E as e,K as t,en as n,g as r,ht as i,j as a,jt as o,v as s,zt as c}from"./vue.runtime.esm-bundler-DtIDEzGL.js";import{l}from"./Button-CZ1-Drhn.js";a(),i(),c();var u=e({__name:`LoadingIndicator`,props:{scale:{default:100}},setup(e){let i=e,a=r(()=>i.scale===100?void 0:{scale:`${i.scale}%`});return(e,r)=>(t(),s(o(l),{style:n(a.value)},null,8,[`style`]))}});export{u as t};

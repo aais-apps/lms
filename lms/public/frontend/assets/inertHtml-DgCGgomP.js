@@ -1,0 +1,1 @@
+var e=e=>new DOMParser().parseFromString(e,`text/html`),t=t=>{let n=e(`<textarea></textarea>`).querySelector(`textarea`);return n.innerHTML=t??``,n.value},n=`p,div,h1,h2,h3,h4,h5,h6,li,tr,blockquote,br`,r=t=>{let r=e(t??``);return r.body.querySelectorAll(n).forEach(e=>e.after(` `)),(r.body.textContent||``).replace(/\s+/g,` `).trim()};export{r as n,t};
