@@ -1,0 +1,163 @@
+Learning,অনলাইন লার্নিং
+Course,কোর্স
+Courses,কোর্সসমূহ
+All Courses,সকল কোর্স
+All Live Courses,সকল লাইভ কোর্স
+"All Live Courses ({0})","সকল লাইভ কোর্স ({0})"
+Featured Courses,নির্বাচিত কোর্সসমূহ
+Enrolled Courses,আমার অন্তর্ভুক্ত কোর্সসমূহ
+My Courses,আমার কোর্সসমূহ
+Start Course,কোর্স শুরু করুন
+Start Learning,পড়াশোনা শুরু করুন
+Continue Learning,পড়াশোনা চালিয়ে যান
+Resume,পুনরায় শুরু করুন
+Enroll Now,এখনই যুক্ত হোন
+Enroll Students,শিক্ষার্থীদের যুক্ত করুন
+Enrolled,যুক্ত হয়েছেন
+Chapter,অধ্যায়
+Chapters,অধ্যায়সমূহ
+Lesson,পাঠ / ক্লাস
+Lessons,পাঠসমূহ
+Next Lesson,পরবর্তী ক্লাস
+Previous Lesson,পূর্ববর্তী ক্লাস
+Mark as Completed,সম্পন্ন হিসেবে চিহ্নিত করুন
+Completed,সম্পন্ন হয়েছে
+In Progress,চলমান
+Progress,অগ্রগতি
+Overview,সারসংক্ষেপ
+Syllabus,পাঠ্যক্রম
+Instructor,শিক্ষক
+Instructors,শিক্ষকবৃন্দ
+Quiz,কুইজ
+Quizzes,কুইজসমূহ
+Start Quiz,কুইজ শুরু করুন
+Submit Quiz,কুইজ জমা দিন
+Retake Quiz,পুনরায় কুইজ দিন
+Quiz Results,কুইজের ফলাফল
+Question,প্রশ্ন
+Questions,প্রশ্নসমূহ
+Answer,উত্তর
+Answers,উত্তরসমূহ
+Your Answer,আপনার উত্তর
+Correct Answer,সঠিক উত্তর
+Explanation,ব্যাখ্যা
+Score,প্রাপ্ত নম্বর
+Passing Percentage,পাসের শতকরা হার
+Pass,উত্তীর্ণ
+Fail,অনুত্তীর্ণ
+Certificate,সনদপত্র
+Certificates,সনদপত্রসমূহ
+Get Certified,সনদপত্র অর্জন করুন
+Download Certificate,সনদপত্র ডাউনলোড করুন
+Verify Certificate,সনদপত্র যাচাই করুন
+Discussion,আলোচনা
+Discussions,আলোচনাসমূহ
+Ask a question,প্রশ্ন জিজ্ঞাসা করুন
+Reply,উত্তর দিন
+Reviews,মতামত ও রেটিং
+Write a review,মতামত লিখুন
+Review the course,কোর্সের ওপর মতামত দিন
+Rating,রেটিং
+Batch,ব্যাচ
+Batches,ব্যাচসমূহ
+Live Class,লাইভ ক্লাস
+Join Class,ক্লাসে যোগ দিন
+Schedule,সময়সূচি
+Upcoming Classes,আসন্ন ক্লাসসমূহ
+Assignment,অ্যাসাইনমেন্ট
+Assignments,অ্যাসাইনমেন্টসমূহ
+Submit Assignment,অ্যাসাইনমেন্ট জমা দিন
+Due Date,জমা দেওয়ার শেষ তারিখ
+Add Chapter,অধ্যায় যোগ করুন
+Add Lesson,পাঠ যোগ করুন
+Add Quiz,কুইজ যোগ করুন
+Course Title,কোর্সের নাম
+Course Description,কোর্সের বিবরণ
+Preview,প্রাকদর্শন
+Video,ভিডিও
+Watch Video,ভিডিও দেখুন
+Resource,সংযুক্তি
+Resources,সংযুক্তিসমূহ
+Download Resource,রিসোর্স ডাউনলোড করুন
+Notes,নোটসমূহ
+Instructor Notes,শিক্ষকের নোট
+Help us improve our course material.,আমাদের কোর্সের মান উন্নয়নে মতামত দিন।
+Under Review,পর্যালোচনার অপেক্ষায়
+Published,প্রকাশিত
+Unpublished,অপ্রকাশিত
+Draft,খসড়া
+Certified Participants,সনদপ্রাপ্ত শিক্ষার্থীবৃন্দ
+Issue Certificate,সনদপত্র প্রদান করুন
+Congratulations!,অভিনন্দন!
+You have successfully completed this course.,আপনি সফলভাবে এই কোর্সটি সম্পন্ন করেছেন।
+Your certificate is ready to download.,আপনার সনদপত্র ডাউনলোড করার জন্য প্রস্তুত।
+View Certificate,সনদপত্র দেখুন
+Share Certificate,সনদপত্র শেয়ার করুন
+Attempts Left,অবশিষ্ট সুযোগ
+Time Left,অবশিষ্ট সময়
+Time Limit,সময়সীমা
+Minutes,মিনিট
+Seconds,সেকেন্ড
+Total Questions,মোট প্রশ্ন
+Passing Marks,পাস নম্বর
+Submit Answer,উত্তর জমা দিন
+Clear Selection,নির্বাচন বাতিল করুন
+Next Question,পরবর্তী প্রশ্ন
+Previous Question,পূর্ববর্তী প্রশ্ন
+Finish Quiz,কুইজ সমাপ্ত করুন
+Summary of Quiz,কুইজের সারাংশ
+Attempted,উত্তর দেওয়া হয়েছে
+Unattempted,উত্তর দেওয়া হয়নি
+Review Answers,উত্তরগুলো পর্যালোচনা করুন
+Correct,সঠিক
+Incorrect,ভুল
+Your Score,আপনার প্রাপ্ত নম্বর
+Result Status,ফলাফলের অবস্থা
+Congratulations, you passed!,অভিনন্দন, আপনি উত্তীর্ণ হয়েছেন!
+Sorry, you did not pass.,দুঃখিত, আপনি পাস করতে পারেননি।
+Try Again,আবার চেষ্টা করুন
+Course Completed,কোর্স সম্পন্ন
+Course Progress,কোর্সের অগ্রগতি
+Lessons Completed,সম্পন্নকৃত পাঠ
+"You have completed {0} of {1} lessons","আপনি {1} টির মধ্যে {0} টি পাঠ সম্পন্ন করেছেন"
+"{0}% completed","{0}% সম্পন্ন হয়েছে"
+Course Overview,কোর্সের পরিচিতি
+Course Content,কোর্সের সূচিপত্র
+What you will learn,আপনি যা শিখবেন
+Prerequisites,প্রয়োজনীয় পূর্বশর্ত
+About the Instructor,শিক্ষকের পরিচিতি
+Instructor Bio,শিক্ষকের বিবরণ
+Enroll in Course,কোর্সে ভর্তি হোন
+Free Course,বিনামূল্যে কোর্স
+Paid Course,পেইড কোর্স
+Price,মূল্য
+Buy Now,এখনই কিনুন
+Access Denied,প্রবেশাধিকার নেই
+Please login to access this course,এই কোর্সে প্রবেশের জন্য লগইন করুন
+Login to Enroll,ভর্তি হতে লগইন করুন
+Go to Course,কোর্সে প্রবেশ করুন
+Back to Courses,কোর্স তালিকায় ফিরে যান
+All,সকল
+Filter Courses,কোর্স ফিল্টার করুন
+Search Courses,কোর্স অনুসন্ধান করুন
+No courses found,কোনো কোর্স পাওয়া যায়নি
+No lessons available,কোনো পাঠ উপলব্ধ নেই
+No quizzes available,কোনো কুইজ উপলব্ধ নেই
+Bookmark,বুকমার্ক করুন
+Bookmarked,বুকমার্ক করা হয়েছে
+Remove Bookmark,বুকমার্ক বাতিল করুন
+Share Course,কোর্স শেয়ার করুন
+Copy Link,লিংক কপি করুন
+Link Copied,লিংক কপি হয়েছে
+Announcements,ঘোষণাসমূহ
+Announcement,ঘোষণা
+New Announcement,নতুন ঘোষণা
+Post Announcement,ঘোষণা প্রকাশ করুন
+Message,বার্তা
+Send Message,বার্তা পাঠান
+Live Session,লাইভ সেশন
+Class Link,ক্লাসের লিংক
+Join Meeting,মিটিংয়ে যুক্ত হোন
+Starts at,শুরু হবে
+Duration,সময়কাল
+Hours,ঘণ্টা
