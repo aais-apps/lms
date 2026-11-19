@@ -100,6 +100,8 @@
 import type { ComponentPublicInstance } from 'vue'
 import Quiz from '@/components/QuizBlock.vue'
 import PdfBlock from '@/components/PdfBlock.vue'
+import katex from 'katex'
+import 'katex/dist/katex.min.css'
 // @ts-expect-error markdown-it ships no type declarations
 import MarkdownIt from 'markdown-it'
 import { extractYoutubeID, getMacroArg } from '@/utils/lessonMacros'
@@ -114,9 +116,30 @@ const markdown = new MarkdownIt({
 	linkify: true,
 })
 
+const renderMath = (text: string): string => {
+	if (!text) return ''
+	// Render display math $$...$$
+	let out = text.replace(/\$\$([\s\S]+?)\$\$/g, (_match, expr) => {
+		try {
+			return katex.renderToString(expr.trim(), { displayMode: true, throwOnError: false })
+		} catch {
+			return _match
+		}
+	})
+	// Render inline math $...$
+	out = out.replace(/(^|[^\\])\$([^\$\n]+?)\$/g, (_match, prefix, expr) => {
+		try {
+			return prefix + katex.renderToString(expr.trim(), { displayMode: false, throwOnError: false })
+		} catch {
+			return _match
+		}
+	})
+	return out
+}
+
 // The directive sanitizes at the rich level, which is where the anchor-target
-// hook and the form-tag blocklist live. This only does the markdown pass.
-const renderMarkdown = (block: string): string => markdown.render(block)
+// hook and the form-tag blocklist live. This does the math + markdown pass.
+const renderMarkdown = (block: string): string => markdown.render(renderMath(block))
 
 defineProps<{
 	content: string

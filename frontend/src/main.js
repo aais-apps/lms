@@ -1,4 +1,5 @@
 import './index.css'
+import 'katex/dist/katex.min.css'
 import { createApp, watch } from 'vue'
 import router from './router'
 import App from './App.vue'
