@@ -1,151 +1,447 @@
+"<a href=""/app/lms-settings/LMS%20Settings"">LMS Settings</a>","<a href=""/app/lms-settings/LMS%20Settings"">এলএমএস সেটিংস</a>"
+"<a href=""/app/web-page/new-web-page-1"">Setup a Home Page</a>","<a href=""/app/web-page/new-web-page-1"">হোম পেজ সেটআপ করুন</a>"
+"<a href=""/lms/courses"">Visit LMS Portal</a>","<a href=""/lms/courses"">এলএমএস পোর্টালে যান</a>"
+"<a href=""/lms/courses/new/edit"">Create a Course</a>","<a href=""/lms/courses/new/edit"">কোর্স তৈরি করুন</a>"
+"<a href=""https://docs.frappe.io/learning"">Documentation</a>","<a href=""https://docs.frappe.io/learning"">ডকুমেন্টেশন</a>"
+"<p>Dear {{ member_name }},</p>\n\n<p>You have been enrolled in our upcoming batch {{ batch_name }}.</p>\n\n<p>Thanks,</p>\n<p>Frappe Learning</p>","<p>প্রিয় {{ member_name }},</p>\n\n<p>আপনাকে আমাদের আসন্ন ব্যাচ {{ batch_name }}-এ অন্তর্ভুক্ত করা হয়েছে।</p>\n\n<p>ধন্যবাদ,</p>\n<p>ফ্র্যাপে লার্নিং</p>"
+"<span class=""h4""><b>Get Started</b></span>","<span class=""h4""><b>শুরু করুন</b></span>"
+"<span class=""h4""><b>Master</b></span>","<span class=""h4""><b>মাস্টার</b></span>"
+"<span style=""font-size: 18px;""><b>Statistics</b></span>","<span style=""font-size: 18px;""><b>পরিসংখ্যান</b></span>"
+A course cannot have both paid certificate and certificate of completion.,একটি কোর্সে পেইড সার্টিফিকেট এবং কোর্স সমাপ্তির সার্টিফিকেট উভয়ই থাকতে পারে না।
+A new batch '{0}' has been published that might interest you. Check it out!,একটি নতুন ব্যাচ '{0}' প্রকাশিত হয়েছে যা আপনার পছন্দ হতে পারে। দেখে নিন!
+A new course '{0}' has been published that might interest you. Check it out!,একটি নতুন কোর্স '{0}' প্রকাশিত হয়েছে যা আপনার পছন্দ হতে পারে। দেখে নিন!
+A new course has been published on {0},{0}-এ একটি নতুন কোর্স প্রকাশিত হয়েছে
 About,পরিচিতি
 About the Instructor,শিক্ষকের পরিচিতি
+Acceptance for Terms and/or Policies,শর্তাবলী এবং/অথবা নীতিমালার সম্মতি
 Access Denied,প্রবেশাধিকার নেই
+"Access courses, join batches, and track learning progress","কোর্সগুলোতে প্রবেশ করুন, ব্যাচে যুক্ত হোন এবং শেখার অগ্রগতি ট্র্যাক করুন"
 Account,হিসাবের খাত
+Account ID,অ্যাকাউন্ট আইডি
 Account Name,হিসাবের নাম
+Achievements,অর্জনসমূহ
 Actions,অ্যাকশনসমূহ
 Active,সক্রিয়
+Active Members,সক্রিয় সদস্যবৃন্দ
 Activity,কার্যক্রম
 Add,যোগ করুন
 Add Assessment,মূল্যায়ন যোগ করুন
 Add Chapter,অধ্যায় যোগ করুন
+Add Condition,শর্ত যোগ করুন
 Add Course,কোর্স / বিষয় যোগ করুন
+Add Course to Program,প্রোগ্রামে কোর্স যোগ করুন
 Add Lesson,পাঠ যোগ করুন
 Add Quiz,কুইজ যোগ করুন
+Add Quiz to Video,ভিডিওতে কুইজ যোগ করুন
 Add Row,নতুন সারি যোগ করুন
+Add a Chapter,একটি অধ্যায় যোগ করুন
+Add a Lesson,একটি পাঠ যোগ করুন
+Add a chapter,একটি অধ্যায় যোগ করুন
+Add a lesson,একটি পাঠ যোগ করুন
+Add a program,একটি প্রোগ্রাম যোগ করুন
+Add a programming exercise to your lesson,আপনার পাঠে একটি প্রোগ্রামিং অনুশীলন যোগ করুন
+Add a quiz to your lesson,আপনার পাঠে একটি কুইজ যোগ করুন
+Add an assignment to your lesson,আপনার পাঠে একটি অ্যাসাইনমেন্ট যোগ করুন
+Add at least one possible answer for this question: {0},এই প্রশ্নের জন্য অন্তত একটি সম্ভাব্য উত্তর যোগ করুন: {0}
 Add chapter,অধ্যায় যোগ করুন
+Add courses to your batch,আপনার ব্যাচে কোর্স যোগ করুন
 Add new address,নতুন ঠিকানা যোগ করুন
+Add one to get started,শুরু করতে একটি যোগ করুন
 Add option,বিকল্প যোগ করুন
 Add questions,প্রশ্নাবলী যোগ করুন
+Add quiz to this video,এই ভিডিওতে কুইজ যোগ করুন
+Add students to your batch,আপনার ব্যাচে শিক্ষার্থী যোগ করুন
 Add tag,Tag যোগ করুন
+Add to Notes,নোটে যোগ করুন
+Add web page to sidebar,সাইডবারে ওয়েব পেজ যোগ করুন
+Add your first chapter,আপনার প্রথম অধ্যায় যোগ করুন
+Add your first lesson,আপনার প্রথম পাঠ যোগ করুন
 Address,ঠিকানা
 Address Line 1,ঠিকানা লাইন ১
 Address Line 2,ঠিকানা লাইন ২
+Address Title,ঠিকানার শিরোনাম
 Address Type,ঠিকানা-এর ধরন
+Admin,অ্যাডমিন
 Administrator,অ্যাডমিনিস্ট্রেটর
 All,সকল
 All Courses,সকল কোর্স
 All Live Courses,সকল লাইভ কোর্স
 All Live Courses ({0}),সকল লাইভ কোর্স ({0})
+All Programs,সকল প্রোগ্রাম
+All questions should have the same marks if the limit is set.,সীমা নির্ধারিত থাকলে সকল প্রশ্নের নম্বর সমান হতে হবে।
+Allow Guest Access,গেস্ট অ্যাক্সেসের অনুমতি দিন
+Allow Job Posting,চাকরির বিজ্ঞপ্তি দেওয়ার অনুমতি দিন
+Allow Self Enrollment,স্ব-তালিকাভুক্তির অনুমতি দিন
+Allow accessing future dates,ভবিষ্যতের তারিখ অ্যাক্সেস করার অনুমতি দিন
+Allow users to enroll in this batch on their own.,ব্যবহারকারীদের নিজেদের এই ব্যাচে তালিকাভুক্ত হওয়ার অনুমতি দিন।
+Allow users to view their past quiz attempts.,ব্যবহারকারীদের তাদের পূর্ববর্তী কুইজের প্রচেষ্টা দেখার অনুমতি দিন।
+Amber,অ্যাম্বার
 Amount,টাকার পরিমাণ
+Amount (USD),পরিমাণ (USD)
+Amount and currency are required for paid batches.,পেইড ব্যাচের জন্য পরিমাণ এবং মুদ্রা আবশ্যক।
+Amount and currency are required for paid certificates.,পেইড সার্টিফিকেটের জন্য পরিমাণ এবং মুদ্রা আবশ্যক।
+Amount and currency are required for paid courses.,পেইড কোর্সের জন্য পরিমাণ এবং মুদ্রা আবশ্যক।
+Amount with GST,জিএসটি সহ পরিমাণ
 Announcement,ঘোষণা
+Announcement has been sent successfully,ঘোষণা সফলভাবে পাঠানো হয়েছে
+Announcement is required,ঘোষণা আবশ্যক
 Announcements,ঘোষণাসমূহ
 Answer,উত্তর
+Answer:,উত্তর:
 Answers,উত্তরসমূহ
 Any status,অনির্দিষ্ট-এর অবস্থা
+Appears in the left sidebar. Recommended size is 32x32 px in PNG or SVG,বাম সাইডবারে প্রদর্শিত হয়। প্রস্তাবিত আকার PNG বা SVG-তে 32x32 পিক্সেল
+Appears next to the title in your browser tab. Recommended size is 32x32 px in PNG or ICO,আপনার ব্রাউজার ট্যাবের শিরোনামের পাশে প্রদর্শিত হয়। প্রস্তাবিত আকার PNG বা ICO-তে 32x32 পিক্সেল
+Applicable For,যার জন্য প্রযোজ্য
+Applicable Items,প্রযোজ্য আইটেমসমূহ
 Application,অ্যাপ্লিকেশন
+Application Form Link,আবেদনপত্রের লিঙ্ক
 Applications,Applications
+Applied On,আবেদনের তারিখ
 Apply,প্রয়োগ করুন
+Apply GST for India,ভারতের জন্য জিএসটি প্রয়োগ করুন
+Apply Rounding on Equivalent,সমমানের ক্ষেত্রে রাউন্ডিং প্রয়োগ করুন
 Approved,অনুমোদিত
 Apps,অ্যাপস
+Archived,আর্কাইভ করা হয়েছে
+Are you sure you want to cancel this evaluation? This action cannot be undone.,আপনি কি নিশ্চিত যে আপনি এই মূল্যায়নটি বাতিল করতে চান? এই কাজটি আর পূর্বাবস্থায় ফিরিয়ে আনা যাবে না।
+"Are you sure you want to clear the demo data? This would delete the course ""A guide  to Frappe Learning"" along with all its associated data. This action cannot be undone.","আপনি কি নিশ্চিত যে আপনি ডেমো ডেটা মুছে ফেলতে চান? এটি ""A guide  to Frappe Learning"" কোর্সটি এবং এর সাথে সম্পর্কিত সমস্ত ডেটা মুছে ফেলবে। এই কাজটি আর পূর্বাবস্থায় ফিরিয়ে আনা যাবে না।"
+Are you sure you want to delete this program? This action cannot be undone.,আপনি কি নিশ্চিত যে আপনি এই প্রোগ্রামটি মুছে ফেলতে চান? এই কাজটি আর পূর্বাবস্থায় ফিরিয়ে আনা যাবে না।
+Are you sure you want to enroll?,আপনি কি নিশ্চিত যে আপনি তালিকাভুক্ত হতে চান?
+Are you sure you want to login to your Frappe Cloud dashboard?,আপনি কি নিশ্চিত যে আপনি আপনার Frappe Cloud ড্যাশবোর্ডে লগইন করতে চান?
+Are you sure you want to submit the quiz?,আপনি কি নিশ্চিত যে আপনি কুইজটি জমা দিতে চান?
+As a part of this batch's curriculum you will have to complete the following courses and assessments.,এই ব্যাচের পাঠ্যক্রমের অংশ হিসেবে আপনাকে নিম্নলিখিত কোর্স এবং মূল্যায়নগুলো সম্পন্ন করতে হবে।
 Ask a question,প্রশ্ন জিজ্ঞাসা করুন
-Assessment,মূল্যায়ন
+Ask a question to get help from the community.,কমিউনিটির কাছ থেকে সাহায্য পেতে একটি প্রশ্ন জিজ্ঞাসা করুন।
+Assessment,মূল্যায়ন / পরীক্ষা
 Assessment Name,মূল্যায়ন-এর নাম
 Assessment Type,মূল্যায়ন-এর ধরন
+Assessment added successfully,মূল্যায়ন সফলভাবে যোগ করা হয়েছে
+Assessment {0} has already been added to this batch.,{0} মূল্যায়নটি ইতিমধ্যে এই ব্যাচে যোগ করা হয়েছে।
+Assessments,মূল্যায়নসমূহ
+Assign,অ্যাসাইন করুন
 Assignment,অ্যাসাইনমেন্ট
+Assignment Attachment,অ্যাসাইনমেন্ট সংযুক্তি
+Assignment Progress,অ্যাসাইনমেন্টের অগ্রগতি
+Assignment Title,অ্যাসাইনমেন্টের শিরোনাম
+Assignment created successfully,অ্যাসাইনমেন্ট সফলভাবে তৈরি করা হয়েছে
+Assignment submitted successfully,অ্যাসাইনমেন্ট সফলভাবে জমা দেওয়া হয়েছে
+Assignment updated successfully,অ্যাসাইনমেন্ট সফলভাবে আপডেট করা হয়েছে
+Assignment will appear at the bottom of the lesson.,অ্যাসাইনমেন্টটি পাঠের নিচে প্রদর্শিত হবে।
 Assignments,অ্যাসাইনমেন্টসমূহ
+At least one applicable item is required,কমপক্ষে একটি প্রযোজ্য আইটেম আবশ্যক
+At least one option must be correct for this question.,এই প্রশ্নের জন্য কমপক্ষে একটি বিকল্প সঠিক হতে হবে।
+At least one test case is required for the programming exercise.,প্রোগ্রামিং অনুশীলনের জন্য কমপক্ষে একটি টেস্ট কেস আবশ্যক।
 Attempted,উত্তর দেওয়া হয়েছে
 Attempts Left,অবশিষ্ট সুযোগ
+Attendance for Class - {0},ক্লাসের উপস্থিতি - {0}
+Attended for,উপস্থিতির সময়কাল
+Attendees,অংশগ্রহণকারীগণ
+Attire Preference,পোশাকের পছন্দ
 Audio,অডিও
 Author,নির্মাতা
+Authorize Google Calendar Access,গুগল ক্যালেন্ডার অ্যাক্সেস অনুমোদন করুন
 Authors,লেখক
 Auto,স্বয়ংক্রিয়
+Auto Recording,স্বয়ংক্রিয় রেকর্ডিং
+Available Slots,উপলব্ধ স্লট
+Average Completion Rate,গড় সমাপ্তির হার
+Average Feedback Received,প্রাপ্ত গড় প্রতিক্রিয়া
+Average Progress %,গড় অগ্রগতি %
+Average Rating,গড় রেটিং
+Average Watch Time (mins),গড় দেখার সময় (মিনিট)
 Back,পূর্ববর্তী
+Back to Course,কোর্সে ফিরে যান
 Back to Courses,কোর্স তালিকায় ফিরে যান
-Batch,ব্যাচ
+Back to Home,হোমে ফিরে যান
+Badge,ব্যাজ
+Badge Description,ব্যাজের বিবরণ
+Badge Image,ব্যাজের ছবি
+Badge assigned successfully,ব্যাজ সফলভাবে বরাদ্দ করা হয়েছে
+Badge {0} has already been assigned to this {1}.,ব্যাজ {0} ইতিমধ্যে এই {1}-এ বরাদ্দ করা হয়েছে।
+Badge {0} not found,ব্যাজ {0} পাওয়া যায়নি
+Batch,ব্যাচ / শ্রেণি
+Batch Confirmation Template,ব্যাচ নিশ্চিতকরণ টেমপ্লেট
+Batch Course,ব্যাচ কোর্স
 Batch Details,ব্যাচ-এর বিস্তারিত
+Batch Details Raw,ব্যাচের অপরিশোধিত বিবরণ
+Batch End Date,ব্যাচ সমাপ্তির তারিখ
+Batch Enrollment Confirmation,ব্যাচ নথিভুক্তি নিশ্চিতকরণ
+Batch Evaluator,ব্যাচ মূল্যায়নকারী
 Batch Name,ব্যাচ-এর নাম
 Batch Settings,ব্যাচ সেটিংস
+Batch Start Date,ব্যাচ শুরুর তারিখ
+Batch Start Date:,ব্যাচ শুরুর তারিখ:
+Batch Summary,ব্যাচ সারাংশ
+Batch Title,ব্যাচের শিরোনাম
+Batch created successfully,ব্যাচ সফলভাবে তৈরি করা হয়েছে
+Batch deleted successfully,ব্যাচ সফলভাবে মুছে ফেলা হয়েছে
+Batch end date cannot be before the batch start date,ব্যাচ সমাপ্তির তারিখ ব্যাচ শুরুর তারিখের পূর্বে হতে পারে না
+Batch has already started.,ব্যাচ ইতিমধ্যে শুরু হয়ে গেছে।
+Batch is sold out.,ব্যাচের আসন পূর্ণ হয়ে গেছে।
+Batch start time cannot be greater than or equal to end time.,ব্যাচ শুরুর সময় সমাপ্তির সময়ের সমান বা বেশি হতে পারে না।
+Batch updated successfully,ব্যাচ সফলভাবে আপডেট করা হয়েছে
+Batch:,ব্যাচ:
 Batches,ব্যাচসমূহ
+Best Regards,শুভেচ্ছান্তে
+Billing,বিলিং
 Billing Address,বিলিং ঠিকানা
+Billing Details,বিলিং বিবরণ
+Billing Name,বিলিং নাম
+Bio,বায়ো
 Blue,নীল
+Body,মূল অংশ
 Bookmark,বুকমার্ক করুন
 Bookmarked,বুকমার্ক করা হয়েছে
+Both Individual and Team Work,ব্যক্তিগত এবং দলগত উভয় কাজ
 Branch,শাখা
+Brand Logo,ব্র্যান্ড লোগো
 Brand Name,ব্র্যান্ড-এর নাম
 Brand Settings,ব্র্যান্ড সেটিংস
+"Build and manage courses, chapters, and lessons","কোর্স, অধ্যায় এবং পাঠ তৈরি ও পরিচালনা করুন"
+Business Owner,ব্যবসার মালিক
 Buy Now,এখনই কিনুন
+Buy this course,এই কোর্সটি কিনুন
+By,দ্বারা
+CGPA/4,সিজিপিএ/৪
 Calendar name,বর্ষপঞ্জি-এর নাম
 Cancel,বাতিল করুন
-Cancelled,বাতিল
+Cancelled,বাতিলকৃত
+Cannot search for roles: {0},ভূমিকা অনুসন্ধান করা যাচ্ছে না: {0}
 Canvas,ক্যানভাস
+Career Preference Details,ক্যারিয়ার পছন্দের বিবরণ
+Casual Wear,ক্যাজুয়াল পোশাক
 Category,বিভাগ
+Category added successfully,বিভাগ সফলভাবে যোগ করা হয়েছে
+Category created successfully,ক্যাটাগরি সফলভাবে তৈরি করা হয়েছে
+Category deleted successfully,ক্যাটাগরি সফলভাবে মুছে ফেলা হয়েছে
 Category name,বিভাগ-এর নাম
+Category updated successfully,ক্যাটাগরি সফলভাবে আপডেট করা হয়েছে
 Certificate,সনদপত্র
+Certificate Email Template,সার্টিফিকেট ইমেইল টেমপ্লেট
+Certificate Link,সার্টিফিকেট লিংক
 Certificate of Completion,কোর্স সমাপ্তির সনদপত্র
 Certificate of completion,কোর্স সমাপ্তির সনদপত্র
+Certificate saved successfully,সার্টিফিকেট সফলভাবে সংরক্ষিত হয়েছে
 Certificates,সনদপত্রসমূহ
+Certificates generated successfully,সার্টিফিকেটগুলো সফলভাবে তৈরি করা হয়েছে
+Certification,সার্টিফিকেশন
+Certification Details,সার্টিফিকেশনের বিবরণ
+Certification Name,সার্টিফিকেশনের নাম
+Certification cannot be issued as the member has not completed the course.,সদস্য কোর্সটি সম্পন্ন না করায় সার্টিফিকেশন প্রদান করা সম্ভব নয়।
+Certification cannot be issued as the member is not enrolled in this batch.,সদস্য এই ব্যাচে অন্তর্ভুক্ত না থাকায় সার্টিফিকেশন প্রদান করা সম্ভব নয়।
+Certification cannot be issued as the member is not enrolled in this course.,সদস্য এই কোর্সে অন্তর্ভুক্ত না থাকায় সার্টিফিকেশন প্রদান করা সম্ভব নয়।
+Certification is not enabled for this course.,এই কোর্সের জন্য সার্টিফিকেশন সক্রিয় নয়।
+Certifications,সার্টিফিকেশনসমূহ
+Certified,সার্টিফাইড
+Certified Members,সার্টিফাইড সদস্যবৃন্দ
 Certified Participants,সনদপ্রাপ্ত শিক্ষার্থীবৃন্দ
 Change,পরিবর্তন
+Changes saved successfully,পরিবর্তনগুলো সফলভাবে সংরক্ষিত হয়েছে
 Channel,চ্যানেল
 Channels,চ্যানেল
 Chapter,অধ্যায়
+Chapter Reference,অধ্যায় রেফারেন্স
+Chapter added successfully,অধ্যায় সফলভাবে যোগ করা হয়েছে
+Chapter deleted successfully,অধ্যায় সফলভাবে মুছে ফেলা হয়েছে
+Chapter moved successfully,অধ্যায় সফলভাবে সরানো হয়েছে
+Chapter updated successfully,অধ্যায় সফলভাবে আপডেট করা হয়েছে
 Chapters,অধ্যায়সমূহ
+Charge a fee for batch enrollment.,ব্যাচে ভর্তির জন্য ফি ধার্য করুন।
+Check,চেক করুন
+Check Discussion,আলোচনা দেখুন
+Check Submissions,জমা দেওয়া কাজগুলো দেখুন
+Check out the {0} to know more about certification.,সার্টিফিকেশন সম্পর্কে আরও জানতে {0} দেখুন।
+Checkout Courses,কোর্সগুলো দেখুন
+Checkout the batch,ব্যাচটি দেখুন
+Checkout the course,কোর্সটি দেখুন
+Choices,বিকল্পসমূহ
+Choose all answers that apply,প্রযোজ্য সকল উত্তর নির্বাচন করুন
+Choose an icon,একটি আইকন নির্বাচন করুন
+Choose one answer,একটি উত্তর নির্বাচন করুন
 Choose your provider,পরিসেবা উপলব্ধকারী নির্বাচন করুন
-City,শহর / জেলা
+City,শহর
 Class Link,ক্লাসের লিংক
+Class:,ক্লাস:
 Clear,মেঘমুক্ত আকাশ
 Clear Selection,নির্বাচন বাতিল করুন
+Clear selection,নির্বাচন বাতিল করুন
+Clearly Defined Role,স্পষ্টভাবে সংজ্ঞায়িত ভূমিকা
+Click here,এখানে ক্লিক করুন
+Client ID,ক্লায়েন্ট আইডি
+Client Secret,ক্লায়েন্ট সিক্রেট
 Close,বন্ধ করুন
 Close details,বন্ধ করুন-এর বিস্তারিত
 Closed,বন্ধ
+Cloud,ক্লাউড
+Code,কোড
+Collaboration Preference,সহযোগিতার পছন্দ
 Collapse,সংকোচন
+College Name,কলেজের নাম
 Color,রঙ
+Comma separated keywords,কমা দিয়ে পৃথক করা কিওয়ার্ড
+Comma separated keywords for SEO,এসইও-এর জন্য কমা দিয়ে পৃথক করা কিওয়ার্ড
 Comments,মন্তব্য
+Comments by Evaluator,মূল্যায়নকারীর মন্তব্য
+Common keywords that will be used for all pages,সকল পেজে ব্যবহৃত সাধারণ কিওয়ার্ড
+Community,কমিউনিটি
 Company,প্রতিষ্ঠান / কোম্পানি
 Company Details,প্রতিষ্ঠান / কোম্পানি-এর বিস্তারিত
+Company Email Address,কোম্পানির ইমেইল ঠিকানা
+Company Logo,কোম্পানির লোগো
 Company Name,প্রতিষ্ঠান / কোম্পানি-এর নাম
 Company Type,প্রতিষ্ঠান / কোম্পানি-এর ধরন
+Company Website,কোম্পানির ওয়েবসাইট
 Complete,সম্পন্ন
 Complete & Continue,সম্পন্ন করে এগিয়ে যান
-Completed,সম্পন্ন হয়েছে
+Complete Sign Up,সাইন আপ সম্পন্ন করুন
+Complete Your Enrollment,আপনার ভর্তি সম্পন্ন করুন
+Complete Your Enrollment - Don't miss out!,আপনার ভর্তি সম্পন্ন করুন - সুযোগ হাতছাড়া করবেন না!
+Complete the upcoming quiz to continue watching the video. The quiz will open in {0} {1}.,ভিডিওটি দেখা চালিয়ে যেতে আসন্ন কুইজটি সম্পন্ন করুন। কুইজটি {0} {1}-এ উন্মুক্ত হবে।
+Complete your profile,আপনার প্রোফাইল সম্পন্ন করুন
+Completed,সম্পন্ন
+Completion Certificate,সমাপ্তির সনদপত্র
 Completion Rate,সম্পূর্ণকরণ-এর হার
+Completions,সমাপ্তি
+Condition,শর্ত
+Condition must be in valid JSON format.,শর্তটি অবশ্যই বৈধ JSON ফরম্যাটে হতে হবে।
+Condition must be valid python code.,শর্তটি অবশ্যই বৈধ পাইথন কোড হতে হবে।
+Conduct Evaluation,মূল্যায়ন পরিচালনা করুন
+Conferencing,কনফারেন্সিং
+Conferencing Provider,কনফারেন্সিং প্রদানকারী
+Configuration,কনফিগারেশন
 Confirm,নিশ্চিত করুন
+Confirm Cancellation?,বাতিলকরণ নিশ্চিত করবেন?
+Confirm Your Action,আপনার পদক্ষেপ নিশ্চিত করুন
+Confirm clearing demo data?,ডেমো ডেটা মুছে ফেলা নিশ্চিত করবেন?
+Confirm your action to delete,মুছে ফেলার পদক্ষেপটি নিশ্চিত করুন
+Confirmation Email Sent,নিশ্চিতকরণ ইমেইল পাঠানো হয়েছে
+Confirmation Email Template,নিশ্চিতকরণ ইমেইল টেমপ্লেট
 Congratulations, you passed!
+Congratulations on getting certified!,সার্টিফিকেট অর্জনের জন্য আপনাকে অভিনন্দন!
 Congratulations!,অভিনন্দন!
+Connect,সংযুক্ত করুন
 Connected,সংযুক্ত
 Console,কনশোল
+Contact Us,যোগাযোগ করুন
+Contact Us Email,যোগাযোগের ইমেইল
+Contact Us URL,যোগাযোগের URL
+Contact the Administrator to enroll for this course,এই কোর্সে ভর্তি হতে অ্যাডমিনিস্ট্রেটরের সাথে যোগাযোগ করুন
+Contact the Administrator to enroll for this course.,এই কোর্সে ভর্তি হতে অ্যাডমিনিস্ট্রেটরের সাথে যোগাযোগ করুন।
+Content,বিষয়বস্তু
 Continue Learning,পড়াশোনা চালিয়ে যান
+Contract,চুক্তি
 Copy Link,লিংক কপি করুন
+Corporate Organization,কর্পোরেট প্রতিষ্ঠান
 Correct,সঠিক
 Correct Answer,সঠিক উত্তর
 Correct Answers,সঠিক উত্তর
 Country,দেশ
+Coupon,কুপন
 Coupon Code,কুপন কোড
-Course,কোর্স / বিষয়
+Coupon created successfully,কুপন সফলভাবে তৈরি করা হয়েছে
+Course,বিষয় / কোর্স
+Course Chapter,কোর্স অধ্যায়
 Course Completed,কোর্স সম্পন্ন
+Course Completions,কোর্স সমাপ্তি
 Course Content,কোর্সের সূচিপত্র
+Course Count,কোর্সের সংখ্যা
+Course Creator,কোর্স নির্মাতা
+Course Data,কোর্স ডেটা
 Course Description,কোর্সের বিবরণ
 Course Details,কোর্সের বিবরণ
+Course Enrollments,কোর্সে ভর্তি
+Course Evaluator,কোর্স মূল্যায়নকারী
+Course Instructor,কোর্স প্রশিক্ষক
+Course Lesson,কোর্স পাঠ
 Course List,কোর্স / বিষয় তালিকা
 Course Name,কোর্স / বিষয়-এর নাম
 Course Outline,কোর্স রূপরেখা
 Course Overview,কোর্সের পরিচিতি
 Course Progress,কোর্সের অগ্রগতি
+Course Progress Summary,কোর্সের অগ্রগতির সারসংক্ষেপ
 Course Settings,কোর্স / বিষয় সেটিংস
+Course Stats,কোর্সের পরিসংখ্যান
 Course Title,কোর্সের নাম
+Course added to batch successfully,কোর্সটি সফলভাবে ব্যাচে যুক্ত করা হয়েছে
+Course added to program successfully,কোর্সটি সফলভাবে প্রোগ্রামে যুক্ত করা হয়েছে
+Course already added to program,কোর্সটি ইতোমধ্যে প্রোগ্রামে যুক্ত করা হয়েছে
+Course created successfully,কোর্সটি সফলভাবে তৈরি করা হয়েছে
+Course deleted successfully,কোর্স সফলভাবে মুছে ফেলা হয়েছে
 Course details,কোর্সের বিবরণ
-Courses,কোর্সসমূহ
+Course or Batch is required to issue a certificate.,সার্টিফিকেট প্রদানের জন্য কোর্স বা ব্যাচ নির্বাচন করা আবশ্যক।
+Course updated successfully,কোর্স সফলভাবে আপডেট করা হয়েছে
+Course {0} has already been added to this batch.,{0} কোর্সটি ইতিমধ্যেই এই ব্যাচে যুক্ত করা হয়েছে।
+Course {0} has already been added to this program.,{0} কোর্সটি ইতিমধ্যেই এই প্রোগ্রামে যুক্ত করা হয়েছে।
+Courses,বিষয়সমূহ / কোর্সসমূহ
+Courses Completed,সম্পন্ন কোর্স
+Courses Created,তৈরিকৃত কোর্স
+Courses deleted successfully,কোর্সসমূহ সফলভাবে মুছে ফেলা হয়েছে
+Courses in this Program,এই প্রোগ্রামের কোর্সসমূহ
+Courses must be completed in order. You can only start the next course after completing the previous one.,কোর্সগুলো ক্রমানুসারে সম্পন্ন করতে হবে। পূর্ববর্তী কোর্স সম্পন্ন করার পরেই কেবল পরবর্তী কোর্স শুরু করা যাবে।
+Cover Image,কভার ছবি
 Create,তৈরি করুন
+Create Certificate,সার্টিফিকেট তৈরি করুন
 Create New,নতুন তৈরি করুন
+Create a Course,একটি কোর্স তৈরি করুন
+Create a batch,একটি ব্যাচ তৈরি করুন
+Create a course,একটি কোর্স তৈরি করুন
+Create a live class,একটি লাইভ ক্লাস তৈরি করুন
+Create your first batch,আপনার প্রথম ব্যাচ তৈরি করুন
+Create your first course,আপনার প্রথম কোর্স তৈরি করুন
+Create your first quiz,আপনার প্রথম কুইজ তৈরি করুন
+Created,তৈরি করা হয়েছে
+Creating a batch,ব্যাচ তৈরি করা হচ্ছে
+Creating a course,কোর্স তৈরি করা হচ্ছে
 Currency,মুদ্রা
+Current Lesson,বর্তমান পাঠ
+Current Streak,বর্তমান স্ট্রিক
+Curriculum,পাঠ্যক্রম
+Custom Certificate Templates,কাস্টম সার্টিফিকেট টেমপ্লেট
+Custom HTML,কাস্টম এইচটিএমএল
+Custom Script (JavaScript),কাস্টম স্ক্রিপ্ট (JavaScript)
+Custom Signup Content,কাস্টম সাইনআপ কনটেন্ট
+Customisations,কাস্টমাইজেশন
+Cyan,সায়ান
 Dark,অন্ধকার
 Dashboard,ড্যাশবোর্ড
+Data Import,ডেটা ইমপোর্ট
 Date,তারিখ
+Date:,তারিখ:
 Day,দিন
+Dear,প্রিয়
+Deduct marks for incorrect answers.,ভুল উত্তরের জন্য নম্বর কর্তন করুন।
 Default Currency,ডিফল্ট মুদ্রা
+Default Incoming,ডিফল্ট ইনকামিং
+Default Outgoing,ডিফল্ট আউটগোয়িং
 Default Settings,ডিফল্ট সেটিংস
+Degree Type,ডিগ্রির ধরন
 Delete,মুছুন
 Delete Chapter,অধ্যায় মুছুন
 Delete Course,কোর্স / বিষয় মুছুন
 Delete Program,প্রোগ্রাম / শ্রেণি মুছুন
 Delete batch,ব্যাচ মুছুন
 Delete program,প্রোগ্রাম / শ্রেণি মুছুন
+Delete this chapter?,এই অধ্যায়টি মুছে ফেলতে চান?
+Delete this lesson?,এই পাঠটি মুছে ফেলতে চান?
+Delete {0}?,{0} মুছে ফেলতে চান?
+Deleting the course will also delete all its chapters and lessons. Are you sure you want to delete this course?,কোর্সটি মুছে ফেললে এর সমস্ত অধ্যায় এবং পাঠও মুছে যাবে। আপনি কি নিশ্চিতভাবে এই কোর্সটি মুছে ফেলতে চান?
+"Deleting these exercises will permanently remove them from the system, along with all associated submissions. This action is irreversible. Are you sure you want to proceed?",এই অনুশীলনগুলো মুছে ফেললে সিস্টেম থেকে এগুলো এবং এর সাথে সম্পর্কিত সমস্ত সাবমিশন স্থায়ীভাবে মুছে যাবে। এই কাজটি পূর্বাবস্থায় ফিরিয়ে আনা সম্ভব নয়। আপনি কি এগিয়ে যেতে চান?
+"Deleting this batch will also delete all its data including enrolled students, linked courses, assessments, feedback and discussions. Are you sure you want to continue?","এই ব্যাচটি মুছে ফেললে অন্তর্ভুক্ত শিক্ষার্থী, সংযুক্ত কোর্স, মূল্যায়ন, মতামত এবং আলোচনাসহ এর সমস্ত তথ্য মুছে যাবে। আপনি কি নিশ্চিতভাবে এগিয়ে যেতে চান?"
+Deleting this chapter will also delete all its lessons and permanently remove it from the course. This action cannot be undone. Are you sure you want to continue?,এই অধ্যায়টি মুছে ফেললে এর সকল পাঠ মুছে যাবে এবং কোর্সটি থেকে এটি স্থায়ীভাবে অপসারিত হবে। এই কাজটি পূর্বাবস্থায় ফিরিয়ে আনা যাবে না। আপনি কি নিশ্চিতভাবে এগিয়ে যেতে চান?
+Deleting this lesson will permanently remove it from the course. This action cannot be undone. Are you sure you want to continue?,এই পাঠটি মুছে ফেললে কোর্সটি থেকে এটি স্থায়ীভাবে অপসারিত হবে। এই কাজটি পূর্বাবস্থায় ফিরিয়ে আনা যাবে না। আপনি কি নিশ্চিতভাবে এগিয়ে যেতে চান?
+Deletion not allowed for {0},{0}-এর জন্য মুছে ফেলা অনুমোদিত নয়
+Demo Data Present,ডেমো ডেটা বিদ্যমান
+Demo data cleared successfully,ডেমো ডেটা সফলভাবে মুছে ফেলা হয়েছে
 Description,বিবরণ
 Desk,ডেস্ক
 Details,বিস্তারিত বর্নণা
+Details cannot be empty.,বিবরণ ফাঁকা রাখা যাবে না।
 Device,ডিভাইস
 Disable,নিষ্ক্রিয় করুন
+Disable PWA,PWA নিষ্ক্রিয় করুন
+Disable Self Learning,সেলফ লার্নিং নিষ্ক্রিয় করুন
+Disable Signup,সাইন আপ নিষ্ক্রিয় করুন
 Disabled,নিষ্ক্রিয়
 Discard,অগ্রাহ্য করা
 Discard changes,পরিবর্তন পরিত্যাগ করো
@@ -156,15 +452,20 @@ Discount Percentage,ছাড়ের শতকরা হার
 Discount Type,ছাড়-এর ধরন
 Discussion,আলোচনা
 Discussions,আলোচনাসমূহ
+Display correct answers after each question is attempted.,প্রতিটি প্রশ্নের উত্তর দেওয়ার পর সঠিক উত্তর প্রদর্শন করুন।
 Document,নথি
 Document name,নথি-এর নাম
 Document type,নথি-এর ধরন
+Don’t miss this opportunity to enhance your skills. Click below to complete your enrollment,আপনার দক্ষতা বৃদ্ধির এই সুযোগটি হাতছাড়া করবেন না। আপনার ভর্তি সম্পন্ন করতে নিচে ক্লিক করুন
 Download Certificate,সনদপত্র ডাউনলোড করুন
 Download Resource,রিসোর্স ডাউনলোড করুন
 Draft,খসড়া
+Dream Companies,স্বপ্নের কোম্পানিগুলো
 Due Date,জমা দেওয়ার শেষ তারিখ
 Duplicate,প্রতিলিপি তৈরি করুন
+Duplicate options found for this question.,এই প্রশ্নের জন্য একই বিকল্প একাধিকবার পাওয়া গেছে।
 Duration,সময়কাল
+Duration (in minutes),সময়কাল (মিনিটে)
 Edit,সম্পাদনা করুন
 Edit Assignment,অ্যাসাইনমেন্ট সম্পাদনা করুন
 Edit Category,বিভাগ সম্পাদনা করুন
@@ -173,115 +474,417 @@ Edit Profile,প্রোফাইল সম্পাদনা
 Edit Program,প্রোগ্রাম / শ্রেণি সম্পাদনা করুন
 Edit question,প্রশ্ন সম্পাদনা করুন
 Education,শিক্ষা ব্যবস্থাপনা
+Education Detail,শিক্ষাগত বিবরণ
 Education Details,শিক্ষা ব্যবস্থাপনা-এর বিস্তারিত
 Email,ইমেল
 Email Account,ইমেল অ্যাকাউন্ট
 Email Address,ইমেল ঠিকানা
+Email ID,ইমেইল আইডি
+Email Sent,ইমেইল পাঠানো হয়েছে
+Email Template created successfully,ইমেইল টেমপ্লেট সফলভাবে তৈরি করা হয়েছে
+Email Templates,ইমেইল টেমপ্লেটসমূহ
+Email account created,ইমেইল অ্যাকাউন্ট তৈরি করা হয়েছে
+Email account updated successfully,ইমেইল অ্যাকাউন্ট সফলভাবে আপডেট করা হয়েছে
+Email is required,ইমেইল আবশ্যক
+Email sent successfully,ইমেইল সফলভাবে পাঠানো হয়েছে
+Emails,ইমেইল
 Employee,কর্মী / কর্মকর্তা
 Enable,সক্রিয় করুন
+Enable Google API in Google Settings to send calendar invites for evaluations.,মূল্যায়নের জন্য ক্যালেন্ডার আমন্ত্রণ পাঠাতে Google Settings-এ Google API সক্রিয় করুন।
+Enable Negative Marking,নেগেটিভ মার্কিং সক্রিয় করুন
+Enable evaluations for batch participants.,ব্যাচের অংশগ্রহণকারীদের জন্য মূল্যায়ন সক্রিয় করুন।
+Enable this only if you want to upload a SCORM package as a chapter.,অধ্যায় হিসেবে SCORM প্যাকেজ আপলোড করতে চাইলে কেবল এটি সক্রিয় করুন।
 Enabled,সক্রিয়
+Enabling this will publish the certificate on the certified participants page.,এটি সক্রিয় করলে সনদপ্রাপ্ত অংশগ্রহণকারীদের পৃষ্ঠায় সনদটি প্রকাশিত হবে।
 End Date,End-এর তারিখ
+End Date (or expected),সমাপ্তির তারিখ (বা সম্ভাব্য)
+End Time,সমাপ্তির সময়
+Ended,সমাপ্ত
+Enforce Course Order,কোর্সের ক্রম বাধ্যতামূলক করুন
 Enroll,ভর্তি হন
+Enroll Member to Program,প্রোগ্রামে সদস্য নথিভুক্ত করুন
 Enroll Now,এখনই ভর্তি হন
 Enroll Students,শিক্ষার্থীদের যুক্ত করুন
 Enroll in Course,কোর্সে ভর্তি হোন
 Enrolled,ভর্তি হয়েছেন
 Enrolled Courses,আমার অন্তর্ভুক্ত কোর্সসমূহ
+Enrolled On,ভর্তির তারিখ
+Enrolled Students,ভর্তি হওয়া শিক্ষার্থী
+Enrollment Confirmation Email Template,ভর্তি নিশ্চিতকরণ ইমেইল টেমপ্লেট
+Enrollment Confirmation for {0},{0}-এর জন্য ভর্তি নিশ্চিতকরণ
+Enrollment Count,ভর্তির সংখ্যা
+Enrollment for Program {0},{0} প্রোগ্রামের জন্য ভর্তি
+Enrollment from Batch,ব্যাচ থেকে ভর্তি
+Enrollment in this batch is restricted. Please contact the Administrator.,এই ব্যাচে ভর্তি সীমিত। অনুগ্রহ করে প্রশাসকের সাথে যোগাযোগ করুন।
+Enrollments,ভর্তিসমূহ
+Enter Client Id and Client Secret in Google Settings to send calendar invites for evaluations.,মূল্যায়নের জন্য ক্যালেন্ডার আমন্ত্রণ পাঠাতে Google Settings-এ Client Id এবং Client Secret লিখুন।
+Enter a Coupon Code,কুপন কোড লিখুন
+Enter a URL,একটি URL লিখুন
+Enter email subject,ইমেইলের বিষয় লিখুন
 Error,ত্রুটি
+Error Uploading File,ফাইল আপলোড করতে সমস্যা হয়েছে
+Error creating email template,ইমেইল টেমপ্লেট তৈরি করতে সমস্যা হয়েছে
+Error creating live class. Please try again. {0},লাইভ ক্লাস তৈরি করতে সমস্যা হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন। {0}
+Error creating quiz,কুইজ তৈরি করতে সমস্যা হয়েছে
 Evaluated By,মূল্যায়নকারী
+Evaluation,মূল্যায়ন
+Evaluation Details,মূল্যায়নের বিবরণ
+Evaluation End Date,মূল্যায়ন সমাপ্তির তারিখ
+Evaluation Request,মূল্যায়নের অনুরোধ
+Evaluation cancelled successfully,মূল্যায়ন সফলভাবে বাতিল করা হয়েছে
+Evaluation end date cannot be less than the batch end date.,মূল্যায়নের শেষ তারিখ ব্যাচের শেষ তারিখের আগের হতে পারে না।
+Evaluation saved successfully,মূল্যায়ন সফলভাবে সংরক্ষণ করা হয়েছে
+Evaluator,মূল্যায়ক
+Evaluator Name,মূল্যায়কের নাম
+Evaluator Schedule,মূল্যায়কের সময়সূচি
+Evaluator is required for paid certificates.,পেইড সার্টিফিকেটের জন্য মূল্যায়ক আবশ্যক।
+Event,ইভেন্ট
+Event Type,ইভেন্টের ধরন
+Exercise,অনুশীলনী
+Exercise Title,অনুশীলনীর শিরোনাম
+Exercise deleted successfully,অনুশীলনী সফলভাবে মুছে ফেলা হয়েছে
 Expand,প্রসারণ
+Expected,প্রত্যাশিত
+Expected Output,প্রত্যাশিত আউটপুট
+Expiration Date,মেয়াদোত্তীর্ণের তারিখ
+Expires On,মেয়াদ শেষ হওয়ার তারিখ
+Expiry Date,মেয়াদোত্তীর্ণের তারিখ
+Expiry date cannot be in the past,মেয়াদোত্তীর্ণের তারিখ অতীতের হতে পারে না
 Explanation,ব্যাখ্যা
 Explore More,আরও দেখুন
 Export,রপ্তানি (Export)
 Fail,অনুত্তীর্ণ
 Failed,অনুত্তীর্ণ
+Failed to assign badge,ব্যাজ প্রদান করতে ব্যর্থ হয়েছে
+Failed to enroll in program: {0},প্রোগ্রামে নথিভুক্ত করতে ব্যর্থ হয়েছে: {0}
+Failed to fetch attendance data from Zoom for class {0}: {1},{0} ক্লাসের জন্য Zoom থেকে উপস্থিতির তথ্য আনতে ব্যর্থ হয়েছে: {1}
+Failed to refresh session,সেশন রিফ্রেশ করতে ব্যর্থ হয়েছে
+Failed to send email,ইমেইল পাঠাতে ব্যর্থ হয়েছে
+Failed to submit. Please try again. {0},জমা দিতে ব্যর্থ হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন। {0}
+Failed to update meta tags {0},মেটা ট্যাগ আপডেট করতে ব্যর্থ হয়েছে {0}
 Favicon,ফেভিকন
 Featured,নির্বাচিত
 Featured Courses,নির্বাচিত কোর্সসমূহ
+Feedback,মতামত
+Feel free to make edits to your submission if needed.,প্রয়োজনে আপনার জমাকৃত কাজে নির্দ্বিধায় পরিবর্তন করতে পারেন।
+Field To Check,যাচাই করার ক্ষেত্র
+Field of Major/Study,প্রধান বিষয়/অধ্যয়নের ক্ষেত্র
 File Type,ফাইলের ধরন
 File not found,ফাইল পাওয়া যায়নি
 Filter Courses,কোর্স ফিল্টার করুন
+Filter assignments by course,কোর্স অনুসারে অ্যাসাইনমেন্ট ফিল্টার করুন
+Filter by Member,সদস্য অনুসারে ফিল্টার করুন
 Filter by type,দ্বারা ফিল্টার করুন-এর ধরন
 Filters,ফিল্টার
 Finish Quiz,কুইজ সমাপ্ত করুন
 First Name,প্রথম নাম
+Fixed 9-5,নির্দিষ্ট ৯টা-৫টা
 Fixed Amount,নির্দিষ্ট-এর পরিমাণ
+Fixed Amount Discount,নির্দিষ্ট অঙ্কের ছাড়
+Flexible Time,নমনীয় সময়
+Formal Wear,ফর্মাল পোশাক
+Frappe Learning,Frappe Learning
 Free,বিনামূল্যে
 Free Course,বিনামূল্যে কোর্স
+Freelance,ফ্রিল্যান্স
+Freelancer/Just looking,ফ্রিল্যান্সার/শুধু দেখছি
+French (e.g. Distinction),ফরাসি (যেমন: ডিস্টিংকশন)
 Friday,শুক্রবার
 From,আরম্ভ
 From ,আরম্ভ
 From Date,আরম্ভ-এর তারিখ
 Full Name,পূর্ণ নাম
+Full Time,পূর্ণকালীন
+Full name is required.,পূর্ণ নাম আবশ্যক।
 Function,ফাংশন
+GST Amount,জিএসটি পরিমাণ
+GST Number,জিএসটি নম্বর
+GSTIN,GSTIN
 General,সাধারণ
+Generate,তৈরি করুন
+Generate Certificates,সার্টিফিকেট তৈরি করুন
+Generate Google Meet Link,Google Meet লিংক তৈরি করুন
+Get Certificate,সার্টিফিকেট পান
 Get Certified,সনদপত্র অর্জন করুন
+Get Started,শুরু করুন
+Get the app on your device for easy access & a better experience!,সহজ অ্যাক্সেস এবং আরও উন্নত অভিজ্ঞতার জন্য আপনার ডিভাইসে অ্যাপটি ডাউনলোড করুন!
+Get the app on your iPhone for easy access & a better experience,সহজ অ্যাক্সেস এবং আরও উন্নত অভিজ্ঞতার জন্য আপনার iPhone-এ অ্যাপটি পান
+GitHub,GitHub
+GitHub ID,GitHub আইডি
+Github ID,Github আইডি
 Go,যান
 Go to Course,কোর্সে প্রবেশ করুন
+Google Calendar,গুগল ক্যালেন্ডার
+Google Drive,গুগল ড্রাইভ
+Google Meet,Google Meet
+Google Meet Account,Google Meet অ্যাকাউন্ট
+Google Meet Link,গুগল মিট লিংক
 Grade,গ্রেড
+Grade Assignment,অ্যাসাইনমেন্ট মূল্যায়ন করুন
 Grade Type,গ্রেড-এর ধরন
+Grading,মূল্যায়ন
+Grant only once,শুধু একবার অনুমতি দিন
 Gray,ধূসর
 Green,সবুজ
+Have an account? Login,অ্যাকাউন্ট আছে? লগইন করুন
+Headline,শিরোনাম
+Hello,হ্যালো
+Hello Learner,হ্যালো শিক্ষার্থী
 Help,সহায়তা
+Help others learn something new by creating a course.,একটি কোর্স তৈরি করে অন্যদের নতুন কিছু শিখতে সাহায্য করুন।
+Help us improve by providing your feedback.,আপনার মতামত প্রদান করে আমাদের সেবার মান উন্নত করতে সাহায্য করুন।
 Help us improve our course material.,আমাদের কোর্সের মান উন্নয়নে মতামত দিন।
+Here are the details:,এখানে বিস্তারিত দেওয়া হলো:
+Hey,হেই
+Hey {0},হেই {0}
+"Hey,","হেই,"
+Hi,হাই
+"Hi {0},","হাই {0},"
+"Hi,","হ্যালো,"
 Hidden,আড়াল করা
+Hide my Private Information from others,অন্যদের কাছ থেকে আমার ব্যক্তিগত তথ্য গোপন রাখুন
+Highlight,হাইলাইট
+Highlight what makes you unique and show your skills.,যা আপনাকে অনন্য করে তোলে তা তুলে ধরুন এবং আপনার দক্ষতা প্রদর্শন করুন।
+Highlighted Text,হাইলাইট করা লেখা
+Hiring,নিয়োগ চলছে
 Home,প্রথম পাতা
 Host,হোস্ট
 Hours,ঘণ্টা
+Hybrid,হাইব্রিড
+I am currently working here,আমি বর্তমানে এখানে কর্মরত আছি
+I am delighted to inform you that you have successfully earned your certification for the {0} course. Congratulations!,আমি অত্যন্ত আনন্দের সাথে জানাচ্ছি যে আপনি সফলভাবে {0} কোর্সের সনদ অর্জন করেছেন। অভিনন্দন!
+I am happy to announce that I earned the {0} badge on {1} at {2},আমি আনন্দের সাথে ঘোষণা করছি যে আমি {1}-এ {2}-এ {0} ব্যাজ অর্জন করেছি
+I consent to my personal information being stored for invoicing,ইনভয়েসিংয়ের জন্য আমার ব্যক্তিগত তথ্য সংরক্ষণে আমি সম্মতি দিচ্ছি
 Icon,আইকন
+Identify User Category,ব্যবহারকারীর ক্যাটাগরি চিহ্নিত করুন
+If you are not any more interested to mentor the course,আপনি যদি এই কোর্সে আর মেন্টরিং করতে আগ্রহী না হন
+"If you have any questions or need assistance, feel free to reach out to our support team.","আপনার কোনো প্রশ্ন থাকলে বা সহায়তার প্রয়োজন হলে, নির্দ্বিধায় আমাদের সাপোর্ট টিমের সাথে যোগাযোগ করুন।"
+"If you have any questions or require assistance, feel free to contact us.","আপনার কোনো প্রশ্ন থাকলে বা সহায়তার প্রয়োজন হলে, নির্দ্বিধায় আমাদের সাথে যোগাযোগ করুন।"
+"If you set an amount here, then the USD equivalent setting will not get applied.","আপনি যদি এখানে একটি পরিমাণ নির্ধারণ করেন, তবে সমতুল্য USD সেটিংটি প্রযোজ্য হবে না।"
+If you want open ended questions then make sure each question in the quiz is of open ended type.,"আপনি যদি উন্মুক্ত প্রশ্ন চান, তবে কুইজের প্রতিটি প্রশ্ন যেন উন্মুক্ত ধরণের হয় তা নিশ্চিত করুন।"
 Image,ছবি
+Image search powered by,ইমেজ সার্চ পরিচালনায়
+Image: Corrupted Data Stream,ছবি: ডেটা স্ট্রিম ক্ষতিগ্রস্ত হয়েছে
 Import,আমদানি (Import)
 In Progress,চলমান
+In-app,ইন-অ্যাপ
+Include In Preview,প্রিভিউতে অন্তর্ভুক্ত করুন
+Incomplete,অসম্পূর্ণ
 Incorrect,ভুল
+Individual Work,একক কাজ
+Industry,শিল্প
 Input,ইনপুট
 Install,ইনস্টল করুন
-Instructor,শিক্ষক / প্রশিক্ষক
+Install Frappe Learning,Frappe Learning ইনস্টল করুন
+Institution Name,প্রতিষ্ঠানের নাম
+Instructor,শিক্ষক
 Instructor Bio,শিক্ষকের বিবরণ
+Instructor Content,প্রশিক্ষকের বিষয়বস্তু
 Instructor Info,প্রশিক্ষকের তথ্য
 Instructor Notes,শিক্ষকের নোট
-Instructors,শিক্ষকমণ্ডলী
+Instructors,শিক্ষকবৃন্দ
+Interest,সুদ
+Introduction,ভূমিকা
+Invalid Quiz ID,অকার্যকর কুইজ আইডি
+Invalid Quiz ID in content,বিষয়বস্তুতে অকার্যকর কুইজ আইডি
+Invalid document name,অকার্যকর নথির নাম
+Invalid file path,অকার্যকর ফাইল পাথ
+Invalid search query.,অকার্যকর অনুসন্ধান তথ্য।
+Invite your team and students,আপনার দল এবং শিক্ষার্থীদের আমন্ত্রণ জানান
+Is Correct,সঠিক
+Is SCORM Chapter,SCORM অধ্যায় কিনা
+Is SCORM Package,SCORM প্যাকেজ কিনা
 Issue Certificate,সনদপত্র প্রদান করুন
 Issue Date,ইস্যুর তারিখ
+Issue a Certificate,সনদপত্র প্রদান করুন
+Issue certificates to batch participants.,ব্যাচের অংশগ্রহণকারীদের সনদপত্র প্রদান করুন।
+Issued On,প্রদানের তারিখ
+Issued on,প্রদানের তারিখ
+Items in Sidebar,সাইডবারের আইটেমসমূহ
+Jane Doe,জেন ডো
 JavaScript,Javascript
 Job,কর্ম
 Job Details,কর্ম সংক্রান্ত বিবরণ
+Job Openings,চাকরির সুযোগসমূহ
+Job Opportunity,চাকরির সুযোগ
+Job Title,পদের নাম
+Jobs,কাজসমূহ
+Join,যোগদান করুন
+Join Call,কলে যোগদান করুন
 Join Class,ক্লাসে যোগ দিন
 Join Meeting,মিটিংয়ে যুক্ত হোন
+Join URL,যোগদানের ইউআরএল
+Joined At,যোগদানের সময়
+Joined at,যোগদানের সময়
+Jump to,এখানে যান
+"Keep going,","চালিয়ে যান,"
+LMS Assessment,এলএমএস মূল্যায়ন
+LMS Assignment,এলএমএস অ্যাসাইনমেন্ট
+LMS Assignment Submission,এলএমএস অ্যাসাইনমেন্ট জমা
+LMS Badge,এলএমএস ব্যাজ
+LMS Badge Assignment,এলএমএস ব্যাজ বরাদ্দ
+LMS Batch,এলএমএস ব্যাচ
+LMS Batch Enrollment,এলএমএস ব্যাচ অন্তর্ভুক্তি
+LMS Batch Feedback,এলএমএস ব্যাচ প্রতিক্রিয়া
+LMS Batch Timetable,এলএমএস ব্যাচ সময়সূচি
+LMS Category,এলএমএস ক্যাটাগরি
+LMS Certificate,এলএমএস সনদপত্র
+LMS Certificate Evaluation,এলএমএস সনদপত্র মূল্যায়ন
+LMS Certificate Request,এলএমএস সনদপত্রের অনুরোধ
+LMS Coupon,এলএমএস কুপন
+LMS Coupon Item,এলএমএস কুপন আইটেম
+LMS Course,এলএমএস কোর্স
+LMS Course Interest,এলএমএস কোর্স আগ্রহ
+LMS Course Mentor Mapping,এলএমএস কোর্স মেন্টর ম্যাপিং
+LMS Course Progress,এলএমএস কোর্সের অগ্রগতি
+LMS Course Review,এলএমএস কোর্স পর্যালোচনা
+LMS Enrollment,এলএমএস তালিকাভুক্তি
+LMS Google Meet Settings,এলএমএস গুগল মিট সেটিংস
+LMS Job Application,এলএমএস চাকরির আবেদন
+LMS Lesson Note,এলএমএস পাঠ নোট
+LMS Live Class,এলএমএস লাইভ ক্লাস
+LMS Live Class Participant,এলএমএস লাইভ ক্লাসে অংশগ্রহণকারী
+LMS Option,এলএমএস বিকল্প
+LMS Payment,এলএমএস পেমেন্ট
+LMS Program,এলএমএস প্রোগ্রাম
+LMS Program Course,এলএমএস প্রোগ্রাম কোর্স
+LMS Program Member,এলএমএস প্রোগ্রাম সদস্য
+LMS Programming Exercise,এলএমএস প্রোগ্রামিং অনুশীলন
+LMS Programming Exercise Submission,এলএমএস প্রোগ্রামিং অনুশীলন জমা
+LMS Question,এলএমএস প্রশ্ন
+LMS Quiz,এলএমএস কুইজ
+LMS Quiz Question,এলএমএস কুইজ প্রশ্ন
+LMS Quiz Result,এলএমএস কুইজ ফলাফল
+LMS Quiz Submission,এলএমএস কুইজ জমা
 LMS Settings,এলএমএস সেটিংস
+LMS Sidebar Item,এলএমএস সাইডবার আইটেম
+LMS Source,এলএমএস উৎস
+LMS Student,এলএমএস শিক্ষার্থী
+LMS Test Case,এলএমএস টেস্ট কেস
+LMS Test Case Submission,এলএমএস টেস্ট কেস জমা
+LMS Timetable Legend,এলএমএস সময়সূচি নির্দেশিকা
+LMS Timetable Template,এলএমএস সময়সূচি টেমপ্লেট
+LMS Video Watch Duration,এলএমএস ভিডিও দেখার সময়কাল
+LMS Zoom Settings,এলএমএস জুম সেটিংস
 Label,লেবেল
 Language,ভাষা
 Last Name,শেষ নাম
+Launch File,ফাইল চালু করুন
 Learning,অনলাইন লার্নিং (LMS)
+Learning Consistency,শেখার ধারাবাহিকতা
+Learning Paths,শেখার পথ
 Leave,ছুটি
+Left At,প্রস্থানের সময়
+Left at,প্রস্থানের সময়
 Left to Right,বাঁদিক থেকে ডানদিকে
 Lesson,পাঠ
+Lesson Completion,পাঠ সমাপ্তি
+Lesson Index,পাঠ সূচি
+Lesson Progress,পাঠের অগ্রগতি
+Lesson Reference,পাঠের রেফারেন্স
+Lesson Title,পাঠের শিরোনাম
+Lesson created successfully,পাঠ সফলভাবে তৈরি করা হয়েছে
+Lesson deleted successfully,পাঠ সফলভাবে মুছে ফেলা হয়েছে
 Lesson details,পাঠ-এর বিস্তারিত
+Lesson moved successfully,পাঠ সফলভাবে সরানো হয়েছে
 Lessons,পাঠসমূহ
 Lessons Completed,সম্পন্নকৃত পাঠ
+Lets start setting up your content on the LMS so that you can reclaim time and focus on growth.,"চলুন এলএমএস-এ আপনার কনটেন্ট সেটআপ শুরু করি, যাতে আপনি সময় বাঁচাতে পারেন এবং প্রসারে মনোযোগ দিতে পারেন।"
+"Letter Grade (e.g. A, B-)","লেটার গ্রেড (যেমন: A, B-)"
 Light,হালকা
+Limit Questions To,প্রশ্নের সংখ্যা সীমাবদ্ধ করুন
+Limit cannot be greater than or equal to the number of questions in the quiz.,সীমা কুইজের মোট প্রশ্নের সংখ্যার সমান বা বেশি হতে পারবে না।
 Link,লিংক
 Link Copied,লিংক কপি হয়েছে
+LinkedIn,লিঙ্কডইন
+LinkedIn ID,লিঙ্কডইন আইডি
 Live Class,লাইভ ক্লাস
 Live Session,লাইভ সেশন
+LiveCode URL,লাইভকোড ইউআরএল
+Load More,আরও লোড করুন
 Loading...,লোড করা হচ্ছে...
 Loading…,লোড করা হচ্ছে ...
+Local,স্থানীয়
 Location,অবস্থান
+Location Preference,পছন্দের অবস্থান
 Locked,তালা লাগানো
 Login,লগইন
 Login to Enroll,ভর্তি হতে লগইন করুন
+Login to Frappe Cloud?,Frappe Cloud-এ লগইন করবেন?
+Login to apply,আবেদন করতে লগইন করুন
+Longest Streak,দীর্ঘতম স্ট্রিক
+Looking for new work or hiring talent?,নতুন কাজের সন্ধান করছেন নাকি কর্মী নিয়োগ করছেন?
+Looking forward to seeing you enrolled!,আপনার নিবন্ধনের অপেক্ষায় রইলাম!
+Make LMS the default home,LMS-কে ডিফল্ট হোম করুন
+Make notes for quick revision. Press / for menu.,দ্রুত রিভিশনের জন্য নোট তৈরি করুন। মেনুর জন্য / চাপুন।
+Make this certificate visible to the participant.,এই সনদপত্রটি অংশগ্রহণকারীর কাছে দৃশ্যমান করুন।
+"Manage batches, review and grade submissions","ব্যাচ পরিচালনা করুন, জমা দেওয়া কাজ পর্যালোচনা ও গ্রেড করুন"
+Manage your courses and batches at a glance,এক নজরে আপনার কোর্স ও ব্যাচ পরিচালনা করুন
+Manager (Sales/Marketing/Customer),ম্যানেজার (বিক্রয়/মার্কেটিং/গ্রাহক)
+Manifest File,ম্যানিফেস্ট ফাইল
+Manual Assignment,ম্যানুয়াল অ্যাসাইনমেন্ট
+Mark,চিহ্নিত করুন
+Mark all as read,সব পঠিত হিসেবে চিহ্নিত করুন
 Mark as Completed,সম্পন্ন হিসেবে চিহ্নিত করুন
+Mark for review,পুনর্বিবেচনার জন্য চিহ্নিত করুন
 Marks,নম্বর
+Marks To Cut,কর্তনযোগ্য নম্বর
+Marks for question number {0} cannot be greater than the marks allotted for that question.,{0} নম্বর প্রশ্নের জন্য প্রাপ্ত নম্বর উক্ত প্রশ্নের নির্ধারিত নম্বরের চেয়ে বেশি হতে পারে না।
+Marks out of,মোট নম্বরের মধ্যে
+Marks to Deduct,কর্তনযোগ্য নম্বর
+Marks:,নম্বর:
+Max Attempts,সর্বোচ্চ প্রচেষ্টা
+Maximum Attempts,সর্বোচ্চ প্রচেষ্টা
 Medium,মাঝারি
+Medium ID,মাধ্যম আইডি
+Medium:,মাধ্যম:
+Meeting ID,মিটিং আইডি
+Member,সদস্য
+Member Consent,সদস্যের সম্মতি
+Member Count,সদস্য সংখ্যা
+Member Image,সদস্যের ছবি
+Member Name,সদস্যের নাম
+Member Type,সদস্যের ধরন
+Member Username,সদস্যের ইউজারনেম
+Member added successfully,সদস্য সফলভাবে যুক্ত করা হয়েছে
+Member added to program successfully,প্রোগ্রামে সদস্য সফলভাবে যুক্ত করা হয়েছে
+Member already added to program,সদস্য ইতিমধ্যে প্রোগ্রামে যুক্ত আছেন
+Member already enrolled in this batch,সদস্য ইতিমধ্যে এই ব্যাচে নথিভুক্ত আছেন
+Member does not meet the criteria for the badge {0}.,সদস্য {0} ব্যাজের মানদণ্ড পূরণ করেন না।
+Member {0} has already been added to this program.,{0} সদস্য ইতিমধ্যে এই প্রোগ্রামে যুক্ত আছেন।
+Members,সদস্যবৃন্দ
+Mentor,মেন্টর
+Mentor Name,মেন্টরের নাম
+Mentor Request,মেন্টরের অনুরোধ
+Mentor Request Creation Template,মেন্টর অনুরোধ তৈরির টেমপ্লেট
+Mentor Request Status Update Template,মেন্টর অনুরোধের স্ট্যাটাস আপডেট টেমপ্লেট
 Message,বার্তা
+Message is required,বার্তা প্রদান আবশ্যক
 Meta Description,মেটা বিবরণ
 Meta Image,মেটা ছবি
+Meta Keywords,মেটা কিওয়ার্ড
+Meta Tags,মেটা ট্যাগ
+Meta description,মেটা বিবরণ
+Meta tags should be a list.,মেটা ট্যাগগুলো একটি তালিকা হওয়া উচিত।
+Milestone,মাইলফলক
+Minimum two options are required for multiple choice questions.,বহুনির্বাচনী প্রশ্নের জন্য কমপক্ষে দুটি বিকল্প আবশ্যক।
 Minutes,মিনিট
 Mobile No,মোবাইল নম্বর
+Moderator,মডারেটর
 Modified,পরিবর্তিত
+Modified By,সংশোধনকারী
+Module Name is incorrect or does not exist.,মডিউলের নাম ভুল অথবা বিদ্যমান নেই।
+Module is incorrect.,মডিউলটি সঠিক নয়।
 Monday,সোমবার
+Monetization,মনিটাইজেশন
 More,বেশি
+More actions,আরও অ্যাকশন
+Multiple Correct Answers,একাধিক সঠিক উত্তর
 Mute,নিঃশব্দ
-My Courses,আমার কোর্সসমূহ
+My Batches,আমার ব্যাচসমূহ
+My Courses,আমার বিষয়সমূহ
+My Notes,আমার নোট
+My Profile,আমার প্রোফাইল
 Name,নাম
 New,নতুন
 New Address,নতুন ঠিকানা
@@ -290,49 +893,121 @@ New Assignment,নতুন অ্যাসাইনমেন্ট
 New Batch,নতুন ব্যাচ
 New Category,নতুন বিভাগ
 New Channel,নতুন চ্যানেল
+New Coupon,নতুন কুপন
 New Course,নতুন কোর্স / বিষয়
+New Email Template,নতুন ইমেল টেমপ্লেট
 New Import,নতুন আমদানি (Import)
 New Job,নতুন কর্ম
 New Job Applicant,নতুন চাকরির আবেদনকারী
 New Live Class,নতুন লাইভ ক্লাস
+New Payment Gateway,নতুন পেমেন্ট গেটওয়ে
 New Program,নতুন প্রোগ্রাম / শ্রেণি
 New Quiz,নতুন কুইজ
 New Sign Up,নতুন সাইন আপ
 New Workspace,নতুন ওয়ার্কস্পেস
+New comment in batch {0},{0} ব্যাচে নতুন মন্তব্য
 New lesson,নতুন পাঠ
 New question,নতুন প্রশ্ন
+New reply on the topic {0} in course {1},{1} কোর্সের {0} বিষয়ে নতুন উত্তর
+New {0},নতুন {0}
 Next,পরবর্তী
 Next Lesson,পরবর্তী ক্লাস
 Next Question,পরবর্তী প্রশ্ন
 No,না
+No Assessments,কোনো মূল্যায়ন নেই
 No Notifications,কোনো বিজ্ঞপ্তি নেই
+No Quiz submissions found,কোনো কুইজ জমা পাওয়া যায়নি
+No Recording,কোনো রেকর্ডিং নেই
+No Upcoming Evaluations,আসন্ন কোনো মূল্যায়ন নেই
+No certificates,কোনো সার্টিফিকেট নেই
+No courses created,কোনো কোর্স তৈরি করা হয়নি
 No courses found,কোনো কোর্স পাওয়া যায়নি
+No courses under review,পর্যালোচনাধীন কোনো কোর্স নেই
+No file attached,কোনো ফাইল সংযুক্ত নেই
+No introduction,কোনো ভূমিকা নেই
 No lessons available,কোনো পাঠ উপলব্ধ নেই
+No members found.,কোনো সদস্য পাওয়া যায়নি।
+No quizzes added yet.,এখনও কোনো কুইজ যুক্ত করা হয়নি।
 No quizzes available,কোনো কুইজ উপলব্ধ নেই
+No results,কোনো ফলাফল নেই
 No results found,কোন ফলাফল পাওয়া যায়নি
+No slots available for the selected course.,নির্বাচিত কোর্সের জন্য কোনো স্লট খালি নেই।
+No statistics available for this video.,এই ভিডিওর জন্য কোনো পরিসংখ্যান নেই।
+No students in this batch,এই ব্যাচে কোনো শিক্ষার্থী নেই
+No {0},কোনো {0} নেই
+No {0} Found,কোনো {0} পাওয়া যায়নি
 None,শূণ্য
+Not Allowed,অনুমোদিত নয়
+Not Applicable,প্রযোজ্য নয়
+Not Attempted,অংশগ্রহণ করা হয়নি
 Not Available for Preview,প্রিভিউয়ের জন্য উপলব্ধ নয়
+Not Graded,মূল্যায়ন করা হয়নি
 Not Permitted,অনুমতি নেই
+Not Saved,সংরক্ষিত নয়
+Note,নোট
 Notes,নোটসমূহ
+Notification Sent,বিজ্ঞপ্তি পাঠানো হয়েছে
 Notifications,বিজ্ঞপ্তি
 Notify me when available,উপলব্ধ হলে আমাকে অবহিত করুন
+Number of Students,শিক্ষার্থীর সংখ্যা
+Number of seats available,খালি আসনের সংখ্যা
+OAuth Client ID,OAuth ক্লায়েন্ট আইডি
+Office close to Home,বাড়ির কাছাকাছি অফিস
 Offline,অফলাইন
+On site,অন-সাইট
+On-site,অন-সাইট
+"Once again, congratulations on this significant accomplishment.",এই উল্লেখযোগ্য অর্জনের জন্য আপনাকে আবারও অভিনন্দন।
+"Once the moderator grades your submission, you'll find the details here.","মডারেটর আপনার জমা দেওয়া কাজটি মূল্যায়ন করার পর, আপনি এখানে বিস্তারিত দেখতে পাবেন।"
 Online,অনলাইন
+Only PDF files are allowed.,শুধুমাত্র PDF ফাইলের অনুমতি আছে।
+Only document file of type .doc or .docx are allowed.,শুধুমাত্র .doc বা .docx ধরনের ডকুমেন্ট ফাইলের অনুমতি আছে।
+Only show assignments from the current course,শুধুমাত্র বর্তমান কোর্সের অ্যাসাইনমেন্টগুলো দেখান
+Only show batches that offer a certificate,শুধুমাত্র সার্টিফিকেট প্রদানকারী ব্যাচগুলো দেখান
+Only show courses that offer a certificate,শুধুমাত্র সার্টিফিকেট প্রদানকারী কোর্সগুলো দেখান
+Only zip files are allowed,শুধুমাত্র zip ফাইলের অনুমতি আছে
+Only {0} file is allowed.,শুধুমাত্র {0} ফাইলের অনুমতি আছে।
 Open,উন্মুক্ত
+Open Assignment,অ্যাসাইনমেন্ট খুলুন
+Open Course,কোর্স খুলুন
+Open Ended,উন্মুক্ত
 Open Settings,উন্মুক্ত সেটিংস
+Open to,উন্মুক্ত
+Open to Work,কাজের জন্য প্রস্তুত
 Option,বিকল্প
+Option 1,বিকল্প ১
+Option 10,বিকল্প ১০
+Option 2,বিকল্প ২
+Option 3,বিকল্প ৩
+Option 4,বিকল্প ৪
+Option 5,বিকল্প ৫
+Option 6,বিকল্প ৬
+Option 7,বিকল্প ৭
+Option 8,বিকল্প ৮
+Option 9,বিকল্প ৯
 Options,বিকল্প
 Orange,কমলা
+Order ID,অর্ডার আইডি
 Organization,প্রতিষ্ঠান
 Original Amount,আসল-এর পরিমাণ
-Other,অন্য
+Other,অন্যান্য
 Others,অন্যান্য
+Our Popular Courses,আমাদের জনপ্রিয় কোর্সসমূহ
+Our Upcoming Batches,আমাদের আসন্ন ব্যাচসমূহ
 Output,আউটপুট
+"Oversee all users, content, and system settings","সকল ব্যবহারকারী, বিষয়বস্তু এবং সিস্টেম সেটিংস তদারকি করুন"
 Overview,সারসংক্ষেপ
+Overwrite,ওভাররাইট করুন
 Owner,মালিক
 PAN,প্যান নম্বর
+PAN Number,প্যান নম্বর
 PDF,PDF
+Page deleted successfully,পৃষ্ঠাটি সফলভাবে মুছে ফেলা হয়েছে
+Page not found,পৃষ্ঠাটি পাওয়া যায়নি
+Paid Batch,পেইড ব্যাচ
+Paid Certificate,পেইড সার্টিফিকেট
 Paid Course,পেইড কোর্স
+Part Time,খণ্ডকালীন
+Partially Complete,আংশিক সম্পন্ন
 Pass,উত্তীর্ণ
 Passed,উত্তীর্ণ
 Passing Grade,উত্তীর্ণ নম্বর
@@ -341,47 +1016,194 @@ Passing Percentage,পাসের শতকরা হার
 Password,পাসওয়ার্ড
 Pause,Pause
 Paused,স্থগিত
-Pending,মুলতবি
+Payment,পেমেন্ট
+Payment Country,পেমেন্টের দেশ
+Payment Details,পেমেন্টের বিবরণ
+Payment Gateway,পেমেন্ট গেটওয়ে
+Payment ID,পেমেন্ট আইডি
+Payment Received,পেমেন্ট প্রাপ্ত হয়েছে
+Payment Reminder Template,পেমেন্ট রিমাইন্ডার টেমপ্লেট
+Payment Settings,পেমেন্ট সেটিংস
+Payment for Certificate,সার্টিফিকেটের জন্য পেমেন্ট
+Payment for Document,ডকুমেন্টের জন্য পেমেন্ট
+Payment for Document Type,ডকুমেন্টের ধরনের জন্য পেমেন্ট
+Payment is required to enroll in this batch.,এই ব্যাচে ভর্তি হতে পেমেন্ট করা আবশ্যক।
+Payments app is not installed,পেমেন্টস অ্যাপটি ইনস্টল করা নেই
+Pending,অপেক্ষারত
+People,ব্যক্তিবর্গ
 Percentage,শতকরা হার
+Percentage (e.g. 70%),শতাংশ (যেমন ৭০%)
+Percentage Discount,শতকরা ছাড়
+Persona Captured,পার্সোনা ক্যাপচার করা হয়েছে
 Phone,ফোন
+Phone Number,ফোন নম্বর
+Pink,গোলাপি
 Play,চালাও
+Please add <a href='{0}'>{1}</a> for <a href='{2}'>{3}</a> to send calendar invites for evaluations.,মূল্যায়নের ক্যালেন্ডার আমন্ত্রণ পাঠাতে অনুগ্রহ করে <a href='{2}'>{3}</a>-এর জন্য <a href='{0}'>{1}</a> যোগ করুন।
+Please click on the following button to set your new password,আপনার নতুন পাসওয়ার্ড সেট করতে অনুগ্রহ করে নিচের বোতামটিতে ক্লিক করুন
+Please complete the previous course to unlock this one.,এই কোর্সটি আনলক করতে অনুগ্রহ করে পূর্ববর্তী কোর্সটি সম্পন্ন করুন।
+Please enable the Google Meet account to use this feature.,এই ফিচারটি ব্যবহার করতে অনুগ্রহ করে গুগল মিট অ্যাকাউন্টটি সক্রিয় করুন।
+Please enable the zoom account to use this feature.,এই ফিচারটি ব্যবহার করতে অনুগ্রহ করে জুম অ্যাকাউন্টটি সক্রিয় করুন।
+Please enroll for this course to view this lesson,এই পাঠটি দেখতে অনুগ্রহ করে এই কোর্সে নথিভুক্ত হন
+"Please ensure that the billing name you enter is correct, as it will be used on your invoice.","অনুগ্রহ করে নিশ্চিত করুন যে আপনার প্রবেশ করানো বিলিং নামটি সঠিক, কারণ এটি আপনার ইনভয়েসে ব্যবহার করা হবে।"
+Please enter a coupon code,অনুগ্রহ করে একটি কুপন কোড লিখুন
+Please enter a title.,অনুগ্রহ করে একটি শিরোনাম লিখুন।
+Please enter a valid Contact Us Email.,অনুগ্রহ করে একটি কার্যকর যোগাযোগের ইমেল লিখুন।
+Please enter a valid Contact Us URL.,অনুগ্রহ করে একটি কার্যকর যোগাযোগের ইউআরএল লিখুন।
+Please enter a valid URL.,অনুগ্রহ করে একটি কার্যকর ইউআরএল লিখুন।
+Please enter a valid email.,অনুগ্রহ করে একটি সঠিক ইমেল লিখুন।
+Please enter a valid time in the format HH:mm.,অনুগ্রহ করে HH:mm ফরম্যাটে একটি কার্যকর সময় লিখুন।
+Please enter a valid timestamp,অনুগ্রহ করে একটি কার্যকর টাইমস্ট্যাম্প লিখুন
+Please fill the mandatory fields: {0},অনুগ্রহ করে আবশ্যক ক্ষেত্রগুলো পূরণ করুন: {0}
+Please install the Payments App to create a paid batch. Refer to the documentation for more details. {0},একটি পেইড ব্যাচ তৈরি করতে অনুগ্রহ করে পেমেন্টস অ্যাপ ইনস্টল করুন। আরও বিস্তারিত তথ্যের জন্য ডকুমেন্টেশন দেখুন। {0}
+Please install the Payments App to create a paid course. Refer to the documentation for more details. {0},একটি পেইড কোর্স তৈরি করতে অনুগ্রহ করে পেমেন্টস অ্যাপ ইনস্টল করুন। আরও বিস্তারিত তথ্যের জন্য ডকুমেন্টেশন দেখুন। {0}
+Please let us know where you heard about us from.,আমাদের সম্পর্কে আপনি কোথা থেকে জানতে পেরেছেন তা অনুগ্রহ করে আমাদের জানান।
+Please login to access the quiz.,কুইজে অংশ নিতে অনুগ্রহ করে লগইন করুন।
 Please login to access this course,এই কোর্সে প্রবেশের জন্য লগইন করুন
+Please login to access this page.,এই পৃষ্ঠায় প্রবেশ করতে অনুগ্রহ করে লগইন করুন।
+Please login to continue with payment.,পেমেন্ট প্রক্রিয়া চালিয়ে যেতে অনুগ্রহ করে লগইন করুন।
+Please login to view program details.,প্রোগ্রামের বিবরণ দেখতে অনুগ্রহ করে লগইন করুন।
+Please login to view programs.,প্রোগ্রামগুলো দেখতে অনুগ্রহ করে লগইন করুন।
+Please make sure to schedule your evaluation before this date.,অনুগ্রহ করে এই তারিখের আগেই আপনার মূল্যায়নের সময়সূচি নির্ধারণ নিশ্চিত করুন।
+Please prepare well and be on time for the evaluations.,অনুগ্রহ করে ভালোভাবে প্রস্তুতি নিন এবং মূল্যায়নের জন্য সময়মতো উপস্থিত থাকুন।
+Please provide your consent to proceed with the payment,পেমেন্ট প্রক্রিয়া এগিয়ে নিতে অনুগ্রহ করে আপনার সম্মতি দিন
+Please provide your consent to proceed with the payment.,পেমেন্ট প্রক্রিয়া এগিয়ে নিতে অনুগ্রহ করে আপনার সম্মতি দিন।
+Please select a Google Meet account for this batch.,এই ব্যাচের জন্য অনুগ্রহ করে একটি গুগল মিট অ্যাকাউন্ট নির্বাচন করুন।
+Please select a Zoom account for this batch.,এই ব্যাচের জন্য অনুগ্রহ করে একটি জুম অ্যাকাউন্ট নির্বাচন করুন।
+Please select a conferencing provider and add an account to the batch to create live classes.,লাইভ ক্লাস তৈরি করতে অনুগ্রহ করে একটি কনফারেন্সিং সরবরাহকারী নির্বাচন করুন এবং ব্যাচে একটি অ্যাকাউন্ট যোগ করুন।
+Please select a course,অনুগ্রহ করে একটি কোর্স নির্বাচন করুন
+Please select a course to view available slots.,উপলব্ধ স্লট দেখতে অনুগ্রহ করে একটি কোর্স নির্বাচন করুন।
+Please select a date.,অনুগ্রহ করে একটি তারিখ নির্বাচন করুন।
+Please select a duration.,অনুগ্রহ করে সময়কাল নির্বাচন করুন।
+Please select a future date and time.,অনুগ্রহ করে ভবিষ্যতের একটি তারিখ ও সময় নির্বাচন করুন।
+Please select a member,অনুগ্রহ করে একজন সদস্য নির্বাচন করুন
+Please select a quiz,অনুগ্রহ করে একটি কুইজ নির্বাচন করুন
+Please select a slot for your evaluation.,আপনার মূল্যায়নের জন্য অনুগ্রহ করে একটি স্লট নির্বাচন করুন।
+Please select a time.,অনুগ্রহ করে একটি সময় নির্বাচন করুন।
+Please select a timezone.,অনুগ্রহ করে একটি টাইমজোন নির্বাচন করুন।
 Please select an option,দয়া করে একটি বিকল্প নির্বাচন করুন
+Please take appropriate action at {0},অনুগ্রহ করে {0}-এ উপযুক্ত পদক্ষেপ নিন
+Please upload a SCORM package,অনুগ্রহ করে একটি SCORM প্যাকেজ আপলোড করুন
+Point of Score (e.g. 70),স্কোর পয়েন্ট (যেমন: ৭০)
+Possible Answer 1,সম্ভাব্য উত্তর ১
+Possible Answer 10,সম্ভাব্য উত্তর ১০
+Possible Answer 2,সম্ভাব্য উত্তর ২
+Possible Answer 3,সম্ভাব্য উত্তর ৩
+Possible Answer 4,সম্ভাব্য উত্তর ৪
+Possible Answer 5,সম্ভাব্য উত্তর ৫
+Possible Answer 6,সম্ভাব্য উত্তর ৬
+Possible Answer 7,সম্ভাব্য উত্তর ৭
+Possible Answer 8,সম্ভাব্য উত্তর ৮
+Possible Answer 9,সম্ভাব্য উত্তর ৯
+Post,পোস্ট
 Post Announcement,ঘোষণা প্রকাশ করুন
 Postal Code,পোস্টাল কোড
+Powered by Frappe Learning,ফ্র্যাপে লার্নিং দ্বারা চালিত
 Preferences,পছন্দ
+Preferred Function,পছন্দের কার্যক্ষেত্র
+Preferred Functions,পছন্দের কার্যক্ষেত্রসমূহ
+Preferred Industries,পছন্দের শিল্পখাতসমূহ
+Preferred Industry,পছন্দের শিল্পখাত
+Preferred Location,পছন্দের অবস্থান
 Prerequisites,প্রয়োজনীয় পূর্বশর্ত
+Prevent Skipping Videos,ভিডিও স্কিপ করা প্রতিরোধ করুন
 Preview,প্রিভিউ
+Preview Image,ছবির প্রাকদর্শন
+Preview Video,প্রিভিউ ভিডিও
 Previous,পূর্ববর্তী
 Previous Lesson,পূর্ববর্তী ক্লাস
 Previous Question,পূর্ববর্তী প্রশ্ন
 Price,মূল্য
+Pricing,মূল্য নির্ধারণ
+Pricing and Certification,মূল্য নির্ধারণ এবং সনদপত্র
 Primary,প্রাথমিক
+Primary Countries,প্রধান দেশসমূহ
+Private Information includes your Grade and Work Environment Preferences,ব্যক্তিগত তথ্যের মধ্যে আপনার গ্রেড এবং কর্মপরিবেশের পছন্দসমূহ অন্তর্ভুক্ত
+Problem,সমস্যা
+Problem Statement,সমস্যার বিবরণ
+Proceed to Payment,পেমেন্টে এগিয়ে যান
+Profession,পেশা
 Profile,প্রোফাইল
-Programs,প্রোগ্রামসমূহ
+Profile Image,প্রোফাইল ছবি
+Profile updated successfully,প্রোফাইল সফলভাবে আপডেট করা হয়েছে
+Program Courses,প্রোগ্রামের কোর্সসমূহ
+Program Member,প্রোগ্রাম সদস্য
+Program Members,প্রোগ্রাম সদস্যবৃন্দ
+Program created successfully,প্রোগ্রাম সফলভাবে তৈরি করা হয়েছে
+Program deleted successfully,প্রোগ্রাম সফলভাবে মুছে ফেলা হয়েছে
+Program updated successfully,প্রোগ্রাম সফলভাবে আপডেট করা হয়েছে
+Programming Exercise,প্রোগ্রামিং অনুশীলন
+Programming Exercise Progress,প্রোগ্রামিং অনুশীলনের অগ্রগতি
+Programming Exercise Submission,প্রোগ্রামিং অনুশীলন জমা
+Programming Exercise deleted successfully,প্রোগ্রামিং অনুশীলন সফলভাবে মুছে ফেলা হয়েছে
+Programming Exercises,প্রোগ্রামিং অনুশীলনসমূহ
+Programs,শিক্ষা কার্যক্রমসমূহ
 Progress,অগ্রগতি
+Progress (%),অগ্রগতি (%)
+Progress Distribution,অগ্রগতির বণ্টন
+Progress Summary,অগ্রগতির সংক্ষিপ্ত বিবরণ
+Progress Summary for {0},{0}-এর অগ্রগতির সংক্ষিপ্ত বিবরণ
+Progress of students in courses and assessments,কোর্স এবং মূল্যায়নে শিক্ষার্থীদের অগ্রগতি
 Provider,পরিসেবা উপলব্ধকারী
 Publish,প্রকাশ করুন
+Publish on Participant Page,অংশগ্রহণকারী পাতায় প্রকাশ করুন
 Published,প্রকাশিত
+Published Courses,প্রকাশিত কোর্সসমূহ
+Published On,প্রকাশের তারিখ
+Purchased Certificate,ক্রয়কৃত সনদপত্র
 Purple,পার্পল
 Python,Python
 Question,প্রশ্ন
+Question Detail,প্রশ্নের বিবরণ
 Question Name,প্রশ্ন-এর নাম
 Question Type,প্রশ্ন-এর ধরন
+Question updated successfully,প্রশ্ন সফলভাবে আপডেট করা হয়েছে
+Question {0} of {1},{1}-এর মধ্যে {0} নম্বর প্রশ্ন
 Questions,প্রশ্নাবলী
+Questions marked for review,পর্যালোচনার জন্য চিহ্নিত প্রশ্নসমূহ
 Quiz,কুইজ
+Quiz ID,কুইজ আইডি
+Quiz Progress,কুইজের অগ্রগতি
 Quiz Result,কুইজের ফলাফল
 Quiz Results,কুইজের ফলাফল
+Quiz Submission,কুইজ সাবমিশন
+Quiz Submissions,জমা দেওয়া কুইজসমূহ
+Quiz Title,কুইজের শিরোনাম
 Quiz result,কুইজের ফলাফল
+Quiz updated successfully,কুইজ সফলভাবে আপডেট করা হয়েছে
+Quiz will appear at the bottom of the lesson.,পাঠের নিচে কুইজটি প্রদর্শিত হবে।
 Quizzes,কুইজসমূহ
+Quizzes in this video,এই ভিডিওর কুইজসমূহ
+Randomize the order of questions for each attempt.,প্রতিটি প্রচেষ্টার জন্য প্রশ্নের ক্রম এলোমেলো করুন।
 Rating,মাত্রা
+Rating cannot be 0,রেটিং ০ হতে পারে না
 Read,পড়া
+Read the docs,ডকুমেন্টেশন পড়ুন
+Ready,প্রস্তুত
+Received,গৃহীত
+Records,রেকর্ডসমূহ
 Red,লাল
+Redemption Count,ব্যবহারের সংখ্যা
+Reference DocName,রেফারেন্স ডকনেম
+Reference DocType,রেফারেন্স ডকটাইপ
+Reference Document Type,রেফারেন্স ডকুমেন্টের ধরন
+Reference Name,রেফারেন্স নাম
+Regards,শুভেচ্ছান্তে
+"Regards,","শুভেচ্ছান্তে,"
+Register Now,এখনই নিবন্ধন করুন
+Related Courses,সম্পর্কিত কোর্সসমূহ
 Reload,পুনরায় লোড করুন
+Remote,রিমোট
 Remove,মুছে ফেলুন
 Remove Bookmark,বুকমার্ক বাতিল করুন
+Remove Highlight,হাইলাইট সরান
 Replace,প্রতিস্থাপ
 Reply,উত্তর দিন
+Reply To,রিপ্লাই টু
+Reply To is required,রিপ্লাই টু আবশ্যক
+Reply cannot be empty.,উত্তর খালি রাখা যাবে না।
+Request Invite,আমন্ত্রণের অনুরোধ পাঠান
+Request for Mentorship,মেন্টরশিপের জন্য অনুরোধ
 Required,আবশ্যকীয়
 Reset,রি-সেট করুন
 Resource,সংযুক্তি
@@ -389,25 +1211,44 @@ Resources,সংযুক্তিসমূহ
 Result,ফলাফল
 Result Status,ফলাফলের অবস্থা
 Resume,পুনরায় শুরু করুন
+Resume Video,ভিডিও পুনরায় চালু করুন
+Resume where you left off,যেখানে শেষ করেছিলেন সেখান থেকে শুরু করুন
 Retake Quiz,পুনরায় কুইজ দিন
 Retry,আবার চেষ্টা করো
+Review,পর্যালোচনা
 Review Answers,উত্তরগুলো পর্যালোচনা করুন
 Review the course,কোর্সের ওপর মতামত দিন
 Reviews,মতামত ও রেটিং
 Right to Left,ডানদিক থেকে বাঁদিক
 Role,ভূমিকা (Role)
+Role Preference,রোলের পছন্দ
+Role updated successfully,রোল সফলভাবে আপডেট করা হয়েছে
 Roles,ভূমিকা নির্ধারণ (Roles)
 Route,রুট / লিংক
+Row #{0} Date cannot be outside the batch duration.,সারি #{0}-এর তারিখ ব্যাচের সময়সীমার বাইরে হতে পারে না।
+Row #{0} End time cannot be outside the batch duration.,সারি #{0}-এর সমাপ্তির সময় ব্যাচের সময়সীমার বাইরে হতে পারে না।
+Row #{0} Start time cannot be greater than or equal to end time.,সারি #{0}-এর শুরুর সময় সমাপ্তির সময়ের চেয়ে বেশি বা সমান হতে পারে না।
+Row #{0} Start time cannot be outside the batch duration.,সারি #{0}-এর শুরুর সময় ব্যাচের সময়সীমার বাইরে হতে পারে না।
+Rows {0} have the duplicate questions.,সারি {0}-তে ডুপ্লিকেট প্রশ্ন রয়েছে।
 Run code,চালান কোড
 Running,চলছে
+Rust,রাস্ট
+SCORM,SCORM
+SCORM Content,SCORM কনটেন্ট
+SCORM Package,SCORM প্যাকেজ
+SCORM Package Path,SCORM প্যাকেজ পাথ
 SEO,সার্চ ইঞ্জিন অপটিমাইজেশন (SEO)
+SVG contains potentially unsafe content.,SVG-তে সম্ভাব্য অনিরাপদ উপাদান রয়েছে।
 Saturday,শনিবার
 Save,সংরক্ষণ করুন
 Save name,সংরক্ষণ করুন-এর নাম
 Saved,সংরক্ষিত হয়েছে
-Schedule,সময়সূচী
+Schedule,ক্লাসের সময়সূচি
+Schedule an evaluation to get certified.,সার্টিফিকেট পেতে মূল্যায়নের সময় নির্ধারণ করুন।
+Schedule your evaluation,আপনার মূল্যায়নের সময় নির্ধারণ করুন
+Scheduling,সময়সূচী নির্ধারণ
 School,বিদ্যালয়
-Score,স্কোর
+Score,প্রাপ্ত নম্বর
 Search,অনুসন্ধান
 Search Courses,কোর্স অনুসন্ধান করুন
 Seconds,সেকেন্ড
@@ -416,124 +1257,423 @@ Select category,শ্রেণী নির্বাচন করুন
 Select currency,মুদ্রা নির্বাচন করুন
 Select instructors,শিক্ষকমণ্ডলী নির্বাচন করুন
 Select video,ভিডিও নির্বাচন করুন
+Select {0},{0} নির্বাচন করুন
+Send,পাঠান
+Send Email,ইমেইল পাঠান
 Send Message,বার্তা পাঠান
 Services,সার্ভিস
 Settings,সেটিংস
 Share Certificate,সনদপত্র শেয়ার করুন
 Share Course,কোর্স শেয়ার করুন
 Sidebar,পার্শ্বদণ্ড
+Sidebar Items,সাইডবার আইটেমসমূহ
+Sign Up is disabled,সাইন আপ নিষ্ক্রিয় করা আছে
 Sign up,সাইন আপ
 Skip,উপেক্ষা করুন
 Snapshot,স্ন্যাপশট
+Social media,সামাজিক যোগাযোগ মাধ্যম
+Sold Out,স্টক শেষ
 Sorry, you did not pass.
 Sort by,যে অনুসারে সাজানো হবে
 Source,সোর্স
+Staff,কর্মী
 Start,শুরু
 Start Course,কোর্স শুরু করুন
 Start Date,শুরু-এর তারিখ
+Start Date:,শুরুর তারিখ:
 Start Learning,পড়াশোনা শুরু করুন
 Start Lesson,পাঠ শুরু করুন
 Start Quiz,কুইজ শুরু করুন
 Start Time,শুরুর সময়
+Start Time cannot be greater than End Time,শুরুর সময় শেষের সময়ের চেয়ে বেশি হতে পারে না
+Start URL,স্টার্ট ইউআরএল
 Starts at,শুরু হবে
+Startup Organization,স্টার্টআপ প্রতিষ্ঠান
+State/Province,রাজ্য/প্রদেশ
 Statistics,পরিসংখ্যান
 Status,অবস্থা
+Status/Percentage,অবস্থা/শতকরা হার
+Status/Score,অবস্থা/স্কোর
 Student,শিক্ষার্থী
+Student is already enrolled in this course.,শিক্ষার্থী ইতিমধ্যে এই কোর্সে ভর্তি হয়েছেন।
 Students,শিক্ষার্থীবৃন্দ
+Students will be enrolled in a paid batch once they complete the payment,পেমেন্ট সম্পন্ন করার পর শিক্ষার্থীদের পেইড ব্যাচে অন্তর্ভুক্ত করা হবে
 Subject,বিষয়
+Subject is required,বিষয় উল্লেখ করা আবশ্যক
+Submission,সাবমিশন
+Submission Type,সাবমিশনের ধরন
+Submission by,জমাদানকারী
+Submission saved!,সাবমিশন সংরক্ষিত হয়েছে!
+Submissions,সাবমিশনসমূহ
+Submissions deleted successfully,সাবমিশনগুলো সফলভাবে মুছে ফেলা হয়েছে
 Submit,জমা দিন
 Submit Answer,উত্তর জমা দিন
 Submit Assignment,অ্যাসাইনমেন্ট জমা দিন
+Submit Feedback,মতামত জমা দিন
 Submit Quiz,কুইজ জমা দিন
-Submitted,জমা দেওয়া হয়েছে
+"Submit your resume to proceed with your application for this position. Upon submission, it will be shared with the job poster.","এই পদের জন্য আপনার আবেদন এগিয়ে নিতে রেজুমে জমা দিন। জমা দেওয়ার পর, এটি নিয়োগকারী প্রতিষ্ঠানের সাথে শেয়ার করা হবে।"
+Submitted,জমাকৃত
 Success,সফল
+Successfully enrolled in program,প্রোগ্রামে সফলভাবে ভর্তি হয়েছেন
 Summary,সারাংশ
 Summary of Quiz,কুইজের সারাংশ
 Sunday,রবিবার
+Suspicious pattern found in {0}: {1},{0}-এ সন্দেহজনক প্যাটার্ন পাওয়া গেছে: {1}
 Syllabus,পাঠ্যক্রম
 System,সিস্টেম
 System Manager,সিস্টেম ম্যানেজার
 Tags,ট্যাগগুলি
+Tap,ট্যাপ করুন
 Tasks,কাজসমূহ
 Teal,টিল
+Team School,টিম স্কুল
+Team Work,দলীয় কাজ
 Template,টেমপ্লেট
+Temporarily Disabled,সাময়িকভাবে নিষ্ক্রিয়
+Test Cases,টেস্ট কেসসমূহ
+Test Quiz,টেস্ট কুইজ
 Text,টেক্সট
 Text Direction,লেখার দিকবিন্যাস
+Thank you for providing your feedback.,আপনার মতামত দেওয়ার জন্য ধন্যবাদ।
+Thanks and Regards,ধন্যবাদ ও শুভকামনা
+The batch does not exist.,ব্যাচটি পাওয়া যায়নি।
+The batch you have enrolled for is starting tomorrow. Please be prepared and be on time for the session.,আপনি যে ব্যাচে ভর্তি হয়েছেন তা আগামীকাল শুরু হচ্ছে। অনুগ্রহ করে প্রস্তুত থাকুন এবং সময়মতো সেশনে যোগ দিন।
+The coupon code '{0}' is invalid.,কুপন কোড '{0}' সঠিক নয়।
+The course {0} is now available on {1}.,{0} কোর্সটি এখন {1}-এ পাওয়া যাচ্ছে।
+The deadline to schedule evaluations has passed. Please contact the Instructor for assistance.,মূল্যায়নের সময়সূচী নির্ধারণের সময়সীমা পার হয়ে গেছে। সহায়তার জন্য অনুগ্রহ করে প্রশিক্ষকের সাথে যোগাযোগ করুন।
+The evaluator of this course is unavailable from {0} to {1}. Please select a date after {1},এই কোর্সের মূল্যায়নকারী {0} থেকে {1} পর্যন্ত অনুপস্থিত। অনুগ্রহ করে {1}-এর পরের একটি তারিখ নির্বাচন করুন
+The instructor has left a comment on your assignment {0},প্রশিক্ষক আপনার অ্যাসাইনমেন্ট {0}-এ একটি মন্তব্য করেছেন
+The lesson does not exist.,পাঠটি পাওয়া যায়নি।
+The selected Google Meet account is disabled. Please enable it or select another account.,নির্বাচিত গুগল মিট অ্যাকাউন্টটি নিষ্ক্রিয় রয়েছে। অনুগ্রহ করে এটি সক্রিয় করুন অথবা অন্য একটি অ্যাকাউন্ট নির্বাচন করুন।
+The slot is already booked by another participant.,স্লটটি ইতিমধ্যে অন্য একজন অংশগ্রহণকারী বুক করে ফেলেছেন।
+The specified batch does not exist.,নির্দিষ্ট ব্যাচটি পাওয়া যায়নি।
+The status of your application has changed.,আপনার আবেদনের অবস্থার পরিবর্তন হয়েছে।
 Theme,থিম
+There are no chapters in this course. Create and manage chapters from here.,এই কোর্সে কোনো অধ্যায় নেই। এখান থেকে অধ্যায় তৈরি এবং পরিচালনা করুন।
+There are no courses currently. Create your first course to get started!,বর্তমানে কোনো কোর্স নেই। শুরু করতে আপনার প্রথম কোর্সটি তৈরি করুন!
+There are no seats available in this batch.,এই ব্যাচে কোনো আসন খালি নেই।
+"There are no {0} currently. Keep an eye out, fresh learning experiences are on the way!","বর্তমানে কোনো {0} নেই। নজর রাখুন, নতুন শেখার অভিজ্ঞতা শীঘ্রই আসছে!"
+There are no {0} on this site.,এই সাইটে কোনো {0} নেই।
+There has been an update on your submission. You have got a score of {0} for the quiz {1},আপনার সাবমিশনে একটি আপডেট এসেছে। আপনি {1} কুইজে {0} স্কোর পেয়েছেন
+These customisations will work on the main batch page.,এই কাস্টমাইজেশনগুলো মূল ব্যাচ পৃষ্ঠায় কার্যকর হবে।
+This certificate does no expire,এই সনদের মেয়াদ শেষ হয় না
+This class has ended,এই ক্লাসটি শেষ হয়েছে
+This coupon has expired.,এই কুপনের মেয়াদ শেষ হয়ে গেছে।
+This coupon has reached its maximum usage limit.,এই কুপনটির সর্বোচ্চ ব্যবহারের সীমা পূর্ণ হয়েছে।
+This coupon is not applicable to this {0}.,এই কুপনটি এই {0}-এর ক্ষেত্রে প্রযোজ্য নয়।
+This course is free.,এই কোর্সটি বিনামূল্যে।
+This description will be shown on lists and pages without meta description,"যেসব তালিকা ও পৃষ্ঠায় মেটা বিবরণ নেই, সেখানে এই বিবরণটি প্রদর্শিত হবে"
+This image will be shown on lists and pages that don't have an image by default,"যেসব তালিকা ও পৃষ্ঠায় ডিফল্ট কোনো ছবি নেই, সেখানে এই ছবিটি প্রদর্শিত হবে"
 This is to certify that,এই মর্মে প্রত্যয়ন করা হচ্ছে যে
+This lesson is locked,এই পাঠটি লক করা আছে
+This lesson is not available for preview. Please enroll in the course to access it.,এই পাঠটি প্রিভিউ করার জন্য উপলব্ধ নয়। এটি অ্যাক্সেস করতে অনুগ্রহ করে কোর্সে ভর্তি হন।
 This lesson is not available for preview. Please join the course to access it.,এই পাঠটি প্রিভিউয়ের জন্য উপলব্ধ নয়। কোর্সটিতে যোগদান করে সম্পূর্ণ পাঠ দেখুন।
+This program consists of {0} courses,এই প্রোগ্রামটি {0}টি কোর্স নিয়ে গঠিত
+This site is being updated. You will not be able to make any changes. Full access will be restored shortly.,এই সাইটটি আপডেট করা হচ্ছে। আপনি কোনো পরিবর্তন করতে পারবেন না। শীঘ্রই সম্পূর্ণ অ্যাক্সেস পুনঃস্থাপন করা হবে।
+This video contains {0} {1}:,এই ভিডিওটিতে {0} {1} রয়েছে:
 Thursday,বৃহস্পতিবার
 Time,সময়
 Time Left,অবশিষ্ট সময়
 Time Limit,সময়সীমা
+Time Preference,সময়ের পছন্দ
+Time for a Quiz,কুইজের সময়
+Time in Video,ভিডিওর সময়
+Time in Video (minutes),ভিডিওর সময় (মিনিট)
+Time in video exceeds the total duration of the video.,ভিডিওর নির্দিষ্ট সময় ভিডিওটির মোট ব্যাপ্তিকে অতিক্রম করেছে।
+Time must be in 24 hour format (HH:mm). Example 11:30 or 22:00,সময় অবশ্যই ২৪ ঘণ্টার ফরম্যাটে (HH:mm) হতে হবে। উদাহরণ: 11:30 বা 22:00
 Time: ,সময়:
+Timestamp,টাইমস্ট্যাম্প
+Timetable,সময়সূচি
+Timetable Legends,সময়সূচির নির্দেশিকা
+Timetable Template,সময়সূচি টেমপ্লেট
+Timezone,টাইমজোন
+Timezone is required for paid certificates.,পেইড সার্টিফিকেটের জন্য টাইমজোন আবশ্যক।
+Timings:,সময়সূচি:
 Title,পদ
+Title cannot be empty.,শিরোনাম খালি রাখা যাবে না।
+Title is required,শিরোনাম আবশ্যক
+To,প্রতি
 To Date,শেষের তারিখ
+"To join this batch, please contact the Administrator.",এই ব্যাচে যোগ দিতে অনুগ্রহ করে প্রশাসকের সাথে যোগাযোগ করুন।
 Today,আজকে
 Toggle fullscreen,পূর্ণপর্দা টগল
+"Too many users signed up recently, so the registration is disabled. Please try back in an hour","সম্প্রতি অনেক বেশি ব্যবহারকারী সাইন আপ করেছেন, তাই নিবন্ধন নিষ্ক্রিয় করা হয়েছে। অনুগ্রহ করে এক ঘণ্টা পর আবার চেষ্টা করুন"
 Total,মোট
 Total Marks,মোট নম্বর
 Total Questions,মোট প্রশ্নাবলী
+Total Signups,মোট সাইন-আপ
+Training Feedback,প্রশিক্ষণ মতামত
+Transaction,লেনদেন
+Transaction created successfully,লেনদেন সফলভাবে তৈরি করা হয়েছে
+Transaction updated successfully,লেনদেন সফলভাবে আপডেট করা হয়েছে
+Travel,ভ্রমণ
 Try Again,আবার চেষ্টা করুন
 Try again,পুনরায় চেষ্টা করুন
 Tuesday,মঙ্গলবার
+Twitter,টুইটার
+Twitter ID,টুইটার আইডি
 Type,ধরন
+Type '/' for commands or select text to format,কমান্ডের জন্য '/' টাইপ করুন অথবা ফরম্যাট করতে টেক্সট নির্বাচন করুন
+Type your answer,আপনার উত্তর লিখুন
+Type your reply here...,আপনার উত্তর এখানে লিখুন...
+"UK Grading  (e.g. 1st, 2:2)","ইউকে গ্রেডিং (যেমন: 1st, 2:2)"
 URL,URL
+UUID,UUID
+Unable to add member,সদস্য যোগ করা সম্ভব হয়নি
+Unable to create category,ক্যাটাগরি তৈরি করা সম্ভব হয়নি
 Unattempted,উত্তর দেওয়া হয়নি
+Unavailability,অনুপলব্ধতা
+Unavailable From Date cannot be greater than Unavailable To Date,অনুপলব্ধ শুরুর তারিখ অনুপলব্ধ শেষ তারিখের চেয়ে বেশি হতে পারে না
 Under Review,পর্যালোচনার অপেক্ষায়
 Unknown error,অজানা ত্রুটি
 Unmute,সশব্দ
+Unpublish,আনপাবলিশ করুন
 Unpublished,অপ্রকাশিত
 Unread,অপঠিত
+Unsplash,Unsplash
+Unsplash Access Key,Unsplash অ্যাক্সেস কি
+Unstructured Role,অসংগঠিত ভূমিকা
+Upcoming,আসন্ন
+Upcoming Batches,আসন্ন ব্যাচসমূহ
 Upcoming Classes,আসন্ন ক্লাসসমূহ
+Upcoming Evaluations,আসন্ন মূল্যায়নসমূহ
+Upcoming Live Classes,আসন্ন লাইভ ক্লাসসমূহ
+Update Password,পাসওয়ার্ড আপডেট করুন
+Updated On,আপডেটের তারিখ
 Upload,হ্যাঁ
+Upload Assignment,অ্যাসাইনমেন্ট আপলোড করুন
+Upload File,ফাইল আপলোড করুন
 Upload Image,ছবি আপলোড করুন
+Upload failed,আপলোড ব্যর্থ হয়েছে
+Uploading,আপলোড হচ্ছে
+Uploading {0}%,আপলোড হচ্ছে {0}%
+Usage Limit,ব্যবহারের সীমা
+Usage limit cannot be negative,ব্যবহারের সীমা ঋণাত্মক হতে পারে না
+Use HTML,HTML ব্যবহার করুন
+Use HTML content for the email response,ইমেইল উত্তরের জন্য HTML কন্টেন্ট ব্যবহার করুন
 User,ব্যবহারকারী
+User Category,ব্যবহারকারী বিভাগ
+User Field,ব্যবহারকারী ফিল্ড
+User Image,ব্যবহারকারীর ছবি
+User Input,ব্যবহারকারীর ইনপুট
+User Skill,ব্যবহারকারীর দক্ষতা
+User does not have permission to access this user's profile details.,এই ব্যবহারকারীর প্রোফাইলের বিবরণ দেখার অনুমতি ব্যবহারকারীর নেই।
+User {0} does not exist.,ব্যবহারকারী {0}-এর কোনো অস্তিত্ব নেই।
+User {0} has reported the job post {1},ব্যবহারকারী {0} চাকরির বিজ্ঞপ্তি {1} রিপোর্ট করেছেন
+User {0} is disabled.,ব্যবহারকারী {0} নিষ্ক্রিয় করা হয়েছে।
 Username,ব্যবহারকারী নাম
 Users,ব্যবহারকারীগণ
+Users Response,ব্যবহারকারীর প্রতিক্রিয়া
 Value,মান
+Value Change,মান পরিবর্তন
 Verify Certificate,সনদপত্র যাচাই করুন
 Video,ভিডিও
+Video Embed Link,ভিডিও এম্বেড লিঙ্ক
+Video Statistics,ভিডিও পরিসংখ্যান
+View Applications,আবেদনসমূহ দেখুন
 View Certificate,সনদপত্র দেখুন
+View Resume,রিজিউমে দেখুন
+View all feedback,সকল প্রতিক্রিয়া দেখুন
+Violet,বেগুনি
 Visibility,দৃষ্টিগ্রাহ্যতা
+Visit Website,ওয়েবসাইটে যান
+Visit your batch,আপনার ব্যাচে যান
+Volunteering or Internship,স্বেচ্ছাসেবা বা ইন্টার্নশিপ
 Warning,সতর্কবার্তা
+Watch Time,দেখার সময়
+Watch Time (mins),দেখার সময় (মিনিট)
 Watch Video,ভিডিও দেখুন
+We are pleased to inform you that you have been enrolled in our upcoming batch. Congratulations!,আমরা আনন্দের সাথে জানাচ্ছি যে আপনি আমাদের আসন্ন ব্যাচে সফলভাবে নথিভুক্ত হয়েছেন। অভিনন্দন!
+"We have a limited number of seats, and they won't be available for long!",আমাদের আসন সংখ্যা সীমিত এবং সেগুলি বেশি সময় খালি থাকবে না!
+We noticed that you started enrolling in the,আমরা লক্ষ্য করেছি যে আপনি এতে ভর্তি প্রক্রিয়া শুরু করেছেন
+Web Page,ওয়েব পেজ
+Web page added to sidebar,সাইডবারে ওয়েব পেজ যোগ করা হয়েছে
 Wednesday,বুধবার
+Welcome to {0}!,{0}-এ স্বাগতম!
 What you will learn,আপনি যা শিখবেন
+"When a course gets submitted for review, it will be listed here.",পর্যালোচনার জন্য কোনো কোর্স জমা দেওয়া হলে তা এখানে তালিকাভুক্ত করা হবে।
+Where did you hear about us?,আপনি আমাদের সম্পর্কে কোথা থেকে জানতে পেরেছেন?
+"With this certification, you can now showcase your updated skills and share your achievement with your colleagues and on LinkedIn. To access your certificate, please click on the link provided below. Make sure you are logged in to the portal.",এই সার্টিফিকেশনের মাধ্যমে আপনি এখন আপনার হালনাগাদ দক্ষতা তুলে ধরতে পারেন এবং আপনার সহকর্মী ও লিঙ্কডইনে আপনার অর্জন শেয়ার করতে পারেন। আপনার সার্টিফিকেট পেতে অনুগ্রহ করে নিচে দেওয়া লিঙ্কে ক্লিক করুন। নিশ্চিত করুন যে আপনি পোর্টালে লগইন আছেন।
+Work,কাজ
+Work Environment,কাজের পরিবেশ
+Work Experience,কাজের অভিজ্ঞতা
+Work Experience Details,কাজের অভিজ্ঞতার বিবরণ
+Work Mode,কাজের ধরন
 Workspace,ওয়ার্কস্পেস
 Workspaces,ওয়ার্কস্পেসসমূহ
+Write a Review,একটি পর্যালোচনা লিখুন
 Write a review,মতামত লিখুন
+Write your answer here,এখানে আপনার উত্তর লিখুন
 Wrong Answers,ভুল উত্তর
 Yellow,হলুদ
 Yes,হ্যাঁ
+You,আপনি
+You already have an evaluation on {0} at {1} for the course {2}.,{2} কোর্সের জন্য {0} তারিখে {1} সময়ে ইতিমধ্যে আপনার একটি মূল্যায়ন রয়েছে।
+You are already certified for this course. Click on the card below to open your certificate.,আপনি ইতিমধ্যে এই কোর্সে সনদপ্রাপ্ত। আপনার সার্টিফিকেট দেখতে নিচের কার্ডটিতে ক্লিক করুন।
+You are already enrolled for this batch.,আপনি ইতিমধ্যে এই ব্যাচে নথিভুক্ত আছেন।
+You are already enrolled for this course.,আপনি ইতিমধ্যে এই কোর্সে নথিভুক্ত আছেন।
+You are not authorized to view the assessments of this batch.,এই ব্যাচের মূল্যায়ন দেখার জন্য আপনার অনুমতি নেই।
+You are not authorized to view the chart data of this batch.,এই ব্যাচের চার্ট ডেটা দেখার জন্য আপনার অনুমতি নেই।
+You are not authorized to view the details of this program.,এই প্রোগ্রামের বিবরণ দেখার জন্য আপনার অনুমতি নেই।
+You are not authorized to view the discussion replies for this topic.,এই বিষয়ের আলোচনার উত্তরগুলো দেখার জন্য আপনার অনুমতি নেই।
+You are not authorized to view the discussion topics for this item.,এই আইটেমের আলোচনার বিষয়গুলো দেখার জন্য আপনার অনুমতি নেই।
+You are not authorized to view the students of this batch.,এই ব্যাচের শিক্ষার্থীদের দেখার জন্য আপনার অনুমতি নেই।
+You are not enrolled in this course.,আপনি এই কোর্সে নথিভুক্ত নন।
+You are not enrolled in this course. Please enroll to access this lesson.,আপনি এই কোর্সে নথিভুক্ত নন। এই পাঠটিতে প্রবেশ করতে অনুগ্রহ করে নথিভুক্ত করুন।
+You are not permitted to access this page.,এই পৃষ্ঠায় প্রবেশের অনুমতি আপনার নেই।
+You can also copy-paste following link in your browser,আপনি আপনার ব্রাউজারে নিচের লিঙ্কটি কপি-পেস্টও করতে পারেন
+"You can do better,","আপনি আরও ভালো করতে পারেন,"
+You can find their resume attached to this email.,এই ইমেইলের সাথে তাদের জীবনবৃত্তান্ত সংযুক্ত রয়েছে।
+You can only upload {0} files,আপনি কেবল {0}টি ফাইল আপলোড করতে পারবেন
+You cannot change the roles in read-only mode.,রিড-অনলি মোডে আপনি ভূমিকা পরিবর্তন করতে পারবেন না।
+You cannot enroll in an unpublished course.,আপনি কোনো অপ্রকাশিত কোর্সে নথিভুক্ত হতে পারবেন না।
+You cannot enroll in an unpublished program.,আপনি কোনো অপ্রকাশিত প্রোগ্রামে নথিভুক্ত হতে পারবেন না।
+You cannot enroll in this course as self-learning is disabled. Please contact the Administrator.,স্ব-শিক্ষা (Self-learning) নিষ্ক্রিয় থাকায় আপনি এই কোর্সে নথিভুক্ত হতে পারবেন না। অনুগ্রহ করে প্রশাসকের সাথে যোগাযোগ করুন।
+You cannot schedule evaluations after {0}.,{0}-এর পরে আপনি মূল্যায়ন নির্ধারণ করতে পারবেন না।
+You cannot schedule evaluations for past slots.,অতীতের কোনো স্লটের জন্য আপনি মূল্যায়ন নির্ধারণ করতে পারবেন না।
+You do not have access to this batch.,এই ব্যাচে আপনার প্রবেশাধিকার নেই।
+You do not have access to this course.,এই কোর্সে আপনার প্রবেশাধিকার নেই।
+You do not have permission to access announcements for this batch.,এই ব্যাচের ঘোষণা দেখার অনুমতি আপনার নেই।
+You do not have permission to access badges.,ব্যাজ দেখার অনুমতি আপনার নেই।
+You do not have permission to access heatmap data.,হিটম্যাপ ডেটা দেখার অনুমতি আপনার নেই।
+You do not have permission to access lesson completion stats.,পাঠ সমাপ্তির পরিসংখ্যান দেখার অনুমতি আপনার নেই।
+You do not have permission to access this course's assessment data.,এই কোর্সের মূল্যায়নের তথ্য দেখার অনুমতি আপনার নেই।
+You do not have permission to access this course's progress data.,এই কোর্সের অগ্রগতির তথ্য দেখার অনুমতি আপনার নেই।
+You do not have permission to access this page.,এই পৃষ্ঠায় প্রবেশ করার অনুমতি আপনার নেই।
+You do not have permission to cancel this evaluation.,এই মূল্যায়ন বাতিল করার অনুমতি আপনার নেই।
+You do not have permission to delete this batch.,এই ব্যাচ মুছে ফেলার অনুমতি আপনার নেই।
+You do not have permission to delete this chapter.,এই অধ্যায় মুছে ফেলার অনুমতি আপনার নেই।
+You do not have permission to delete this course.,এই কোর্স মুছে ফেলার অনুমতি আপনার নেই।
+You do not have permission to delete this lesson.,এই পাঠ মুছে ফেলার অনুমতি আপনার নেই।
+You do not have permission to modify this chapter.,এই অধ্যায় সংশোধন করার অনুমতি আপনার নেই।
+You do not have permission to modify this lesson.,এই পাঠ সংশোধন করার অনুমতি আপনার নেই।
+You do not have permission to modify this role.,এই ভূমিকা পরিবর্তন করার অনুমতি আপনার নেই।
+You do not have permission to send confirmation emails for this enrollment.,এই নিবন্ধনের জন্য নিশ্চিতকরণ ইমেইল পাঠানোর অনুমতি আপনার নেই।
+You do not have permission to set up calendar events for this evaluation.,এই মূল্যায়নের জন্য ক্যালেন্ডার ইভেন্ট তৈরি করার অনুমতি আপনার নেই।
+You do not have permission to update meta tags.,মেটা ট্যাগ আপডেট করার অনুমতি আপনার নেই।
+You do not have permission to update this submission.,এই সাবমিশনটি আপডেট করার অনুমতি আপনার নেই।
+You don't have any notifications.,আপনার কোনো বিজ্ঞপ্তি নেই।
+You have a live class scheduled tomorrow. Please be prepared and be on time for the session.,আগামীকাল আপনার একটি লাইভ ক্লাস নির্ধারিত রয়েছে। অনুগ্রহ করে প্রস্তুত থাকুন এবং সময়মতো সেশনে যোগ দিন।
+You have already applied for this job.,আপনি ইতিমধ্যে এই চাকরির জন্য আবেদন করেছেন।
+You have already purchased the certificate for this course.,আপনি ইতিমধ্যে এই কোর্সের সার্টিফিকেট ক্রয় করেছেন।
+You have already reviewed this course,আপনি ইতিমধ্যে এই কোর্সের রিভিউ দিয়েছেন
+You have applied,আপনি আবেদন করেছেন
+You have been enrolled in this batch,আপনাকে এই ব্যাচে এনরোল করা হয়েছে
+You have been enrolled in this course,আপনাকে এই কোর্সে এনরোল করা হয়েছে
 You have completed {0} of {1} lessons,আপনি {1} টির মধ্যে {0} টি পাঠ সম্পন্ন করেছেন
+You have exceeded the maximum number of attempts ({0}) for this quiz,আপনি এই কুইজের জন্য সর্বোচ্চ প্রচেষ্টার সংখ্যা ({0}) অতিক্রম করেছেন
+You have got a score of {0} for the quiz {1},আপনি {1} কুইজে {0} স্কোর পেয়েছেন
+You have not completed the course yet.,আপনি এখনও কোর্সটি সম্পন্ন করেননি।
+You have not received any certificates yet.,আপনি এখনও কোনো সার্টিফিকেট পাননি।
+You have opted to be notified for this course. You will receive an email when the course becomes available.,আপনি এই কোর্সের জন্য বিজ্ঞপ্তি পেতে বেছে নিয়েছেন। কোর্সটি উপলভ্য হলে আপনাকে ইমেলের মাধ্যমে জানানো হবে।
 You have successfully completed this course.,আপনি সফলভাবে এই কোর্সটি সম্পন্ন করেছেন।
+You have {0} upcoming {1} and {2} {3} scheduled.,আপনার {0}টি আসন্ন {1} এবং {2}টি {3} নির্ধারিত রয়েছে।
+You have {0} upcoming {1}.,আপনার {0}টি আসন্ন {1} রয়েছে।
+You have {0} {1} scheduled.,আপনার {0}টি {1} নির্ধারিত রয়েছে।
+You must be an Admin to assign badges to users.,ব্যবহারকারীদের ব্যাজ বরাদ্দ করতে আপনাকে অবশ্যই একজন অ্যাডমিন হতে হবে।
+You must be enrolled in the course to submit a review,রিভিউ জমা দিতে আপনাকে অবশ্যই কোর্সে এনরোল থাকতে হবে
+You need to complete the payment for this course before enrolling.,এনরোল করার আগে আপনাকে এই কোর্সের পেমেন্ট সম্পন্ন করতে হবে।
+You need to login first to enroll for this course,এই কোর্সে এনরোল করতে আপনাকে প্রথমে লগইন করতে হবে
+"You rock,","আপনি অসাধারণ,"
+You've applied to become a mentor for this course. Your request is currently under review.,আপনি এই কোর্সের মেন্টর হওয়ার জন্য আবেদন করেছেন। আপনার অনুরোধটি বর্তমানে পর্যালোচনাধীন রয়েছে।
+You've successfully submitted the assignment.,আপনি সফলভাবে অ্যাসাইনমেন্ট জমা দিয়েছেন।
+YouTube Video URL,ইউটিউব ভিডিও ইউআরএল
+YouTube Video will appear at the top of the lesson.,পাঠের শীর্ষে ইউটিউব ভিডিওটি প্রদর্শিত হবে।
+Your Account has been successfully created!,আপনার অ্যাকাউন্ট সফলভাবে তৈরি করা হয়েছে!
 Your Answer,আপনার উত্তর
 Your Score,আপনার প্রাপ্ত নম্বর
+Your batch {0} is starting tomorrow,আপনার ব্যাচ {0} আগামীকাল শুরু হচ্ছে
+Your browser does not support the video tag.,আপনার ব্রাউজার ভিডিও ট্যাগ সমর্থন করে না।
 Your certificate is ready to download.,আপনার সনদপত্র ডাউনলোড করার জন্য প্রস্তুত।
+Your class on {0} is today,{0} বিষয়ে আপনার ক্লাসটি আজ
+Your enrollment in {{ batch_name }} is confirmed,{{ batch_name }}-এ আপনার এনরোলমেন্ট নিশ্চিত হয়েছে
+Your evaluation for the course {0} has been scheduled on {1} at {2} {3}.,{0} কোর্সের জন্য আপনার মূল্যায়ন {1} তারিখে {2} {3} সময়ে নির্ধারিত হয়েছে।
+Your evaluation slot has been booked,আপনার মূল্যায়নের স্লট বুক করা হয়েছে
+Your evaluator is {0},আপনার মূল্যায়নকারী হলেন {0}
+"Your learning streak counts the number of days in a row you’ve kept up your learning, whether it’s a lesson, quiz, or assignment. Don’t worry, weekends don’t break your streak.","আপনার লার্নিং স্ট্রিক টানা কত দিন আপনি শেখা চালিয়ে গেছেন তা গণনা করে—হোক তা কোনো পাঠ, কুইজ বা অ্যাসাইনমেন্ট। চিন্তা করবেন না, সাপ্তাহিক ছুটির দিনগুলোতে আপনার স্ট্রিক নষ্ট হবে না।"
+Your request to join us as a mentor for the course,মেন্টর হিসেবে কোর্সে যোগদানের জন্য আপনার অনুরোধ
+"Your submission has been successfully saved. The instructor will review and grade it shortly, and you'll be notified of your final result.",আপনার সাবমিশন সফলভাবে সংরক্ষিত হয়েছে। প্রশিক্ষক শীঘ্রই এটি পর্যালোচনা করে গ্রেড দেবেন এবং আপনাকে চূড়ান্ত ফলাফল জানানো হবে।
+Zen Mode,জেন মোড
 Zoom,বড় করে দেখা
+Zoom Account,জুম অ্যাকাউন্ট
 Zoom Settings,বড় করে দেখা সেটিংস
 and,and
+and then 'Add to Home Screen',এবং তারপর 'হোম স্ক্রিনে যোগ করুন'
+applicant,আবেদনকারী
+applicants,আবেদনকারীগণ
+at {0} minutes,{0} মিনিটে
+but didn’t complete your payment,কিন্তু আপনার পেমেন্ট সম্পন্ন করেননি
+cancel your application,আপনার আবেদন বাতিল করুন
 certificate,সনদপত্র
 certificates,সনদপত্রসমূহ
 completed,সম্পন্ন হয়েছে
 course,কোর্স / বিষয়
 courses,কোর্সসমূহ
+day streak,দিনের স্ট্রিক
 days,দিন:
+edited {0},সম্পাদিত {0}
 enrolled,ভর্তি হয়েছেন
 esc,Esc
+evaluation,মূল্যায়ন
+evaluations,মূল্যায়নসমূহ
+has been,হয়েছে
 has successfully completed the,সফলভাবে সম্পন্ন করেছেন
 including all required assessments,সকল প্রয়োজনীয় মূল্যায়ন সহ
+jane@example.com,jane@example.com
 lesson,পাঠ
 lessons,পাঠসমূহ
+live class,লাইভ ক্লাস
+live classes,লাইভ ক্লাসসমূহ
+mark,নম্বর
+marks,নম্বর
+member,সদস্য
+members,সদস্যবৃন্দ
 minutes,মিনিট
+of,এর
 others,অন্যান্য
+private,ব্যক্তিগত
 question,প্রশ্ন
 questions,প্রশ্নাবলী
 saving...,সংরক্ষণ করা হচ্ছে...
 section,সেকশন
 sections,সেকশনসমূহ
 students,শিক্ষার্থীবৃন্দ
+that might interest you!,যা আপনার আগ্রহের হতে পারে!
+to,প্রতি
+to close,বন্ধ করতে
+to navigate,নেভিগেট করতে
+to select,নির্বাচন করতে
+to view your feedback.,আপনার মতামত দেখতে।
 warning,সতর্কবার্তা
 warnings,সতর্কবার্তা
+you can,আপনি পারেন
+{0} Assignments,{0}টি অ্যাসাইনমেন্ট
+{0} Exercises,{0}টি অনুশীলন
+{0} Quizzes,{0}টি কুইজ
+{0} Settings not found,{0} সেটিংস পাওয়া যায়নি
+{0} and {1},{0} এবং {1}
+{0} has applied for the job position {1},{0} চাকরির পদবী {1}-এর জন্য আবেদন করেছেন
+{0} has published a new batch {1},{0} একটি নতুন ব্যাচ {1} প্রকাশ করেছেন
+{0} has published a new course {1},{0} একটি নতুন কোর্স {1} প্রকাশ করেছেন
+{0} has reported a job post for the following reason.,{0} নিম্নোক্ত কারণে একটি চাকরির বিজ্ঞপ্তি রিপোর্ট করেছেন।
+{0} has submitted the assignment {1},{0} অ্যাসাইনমেন্ট {1} জমা দিয়েছেন
+{0} is already a mentor for course {1},{0} ইতিমধ্যে কোর্স {1}-এর একজন মেন্টর
+{0} is already certified for the batch {1},{0} ইতিমধ্যে ব্যাচ {1}-এর জন্য সনদপ্রাপ্ত
+{0} is already certified for the course {1},{0} ইতিমধ্যে কোর্স {1}-এর জন্য সনদপ্রাপ্ত
+{0} is required,{0} আবশ্যক
+{0} is your evaluator,{0} আপনার মূল্যায়নকারী
+{0} mentioned you in a comment,{0} একটি মন্তব্যে আপনাকে উল্লেখ করেছেন
+{0} mentioned you in a comment in your batch.,{0} আপনার ব্যাচের একটি মন্তব্যে আপনাকে উল্লেখ করেছেন।
+{0} mentioned you in a comment in {1},{0} {1}-এ একটি মন্তব্যে আপনাকে উল্লেখ করেছেন
+{0} not found,{0} পাওয়া যায়নি
+{0} rows selected,{0}টি সারি নির্বাচিত
+{0} {1} Jobs,{0} {1}টি চাকরি
 {0}% completed,{0}% সম্পন্ন হয়েছে
+"{0}, row {1}","{0}, সারি {1}"
+{0}s,{0} সেকেন্ড
+{} Active,{} সক্রিয়
+{} Completed,{} সম্পন্ন
+{} Enrolled,{} তালিকাভুক্ত
+{} Granted,{} অনুমোদিত
+{} Passed,{} উত্তীর্ণ
+{} Published,{} প্রকাশিত
