@@ -1,195 +1,539 @@
-Learning,অনলাইন লার্নিং
-Course,কোর্স
-Courses,কোর্সসমূহ
-All Courses,সকল কোর্স
-All Live Courses,সকল লাইভ কোর্স
-"All Live Courses ({0})","সকল লাইভ কোর্স ({0})"
-Featured Courses,নির্বাচিত কোর্সসমূহ
-Enrolled Courses,আমার অন্তর্ভুক্ত কোর্সসমূহ
-My Courses,আমার কোর্সসমূহ
-Start Course,কোর্স শুরু করুন
-Start Learning,পড়াশোনা শুরু করুন
-Continue Learning,পড়াশোনা চালিয়ে যান
-Resume,পুনরায় শুরু করুন
-Enroll Now,এখনই যুক্ত হোন
-Enroll Students,শিক্ষার্থীদের যুক্ত করুন
-Enrolled,যুক্ত হয়েছেন
-Chapter,অধ্যায়
-Chapters,অধ্যায়সমূহ
-Lesson,পাঠ / ক্লাস
-Lessons,পাঠসমূহ
-Next Lesson,পরবর্তী ক্লাস
-Previous Lesson,পূর্ববর্তী ক্লাস
-Mark as Completed,সম্পন্ন হিসেবে চিহ্নিত করুন
-Completed,সম্পন্ন হয়েছে
-In Progress,চলমান
-Progress,অগ্রগতি
-Overview,সারসংক্ষেপ
-Syllabus,পাঠ্যক্রম
-Instructor,শিক্ষক
-Instructors,শিক্ষকবৃন্দ
-Quiz,কুইজ
-Quizzes,কুইজসমূহ
-Start Quiz,কুইজ শুরু করুন
-Submit Quiz,কুইজ জমা দিন
-Retake Quiz,পুনরায় কুইজ দিন
-Quiz Results,কুইজের ফলাফল
-Question,প্রশ্ন
-Questions,প্রশ্নসমূহ
-Answer,উত্তর
-Answers,উত্তরসমূহ
-Your Answer,আপনার উত্তর
-Correct Answer,সঠিক উত্তর
-Explanation,ব্যাখ্যা
-Score,প্রাপ্ত নম্বর
-Passing Percentage,পাসের শতকরা হার
-Pass,উত্তীর্ণ
-Fail,অনুত্তীর্ণ
-Certificate,সনদপত্র
-Certificates,সনদপত্রসমূহ
-Get Certified,সনদপত্র অর্জন করুন
-Download Certificate,সনদপত্র ডাউনলোড করুন
-Verify Certificate,সনদপত্র যাচাই করুন
-Discussion,আলোচনা
-Discussions,আলোচনাসমূহ
-Ask a question,প্রশ্ন জিজ্ঞাসা করুন
-Reply,উত্তর দিন
-Reviews,মতামত ও রেটিং
-Write a review,মতামত লিখুন
-Review the course,কোর্সের ওপর মতামত দিন
-Rating,রেটিং
-Batch,ব্যাচ
-Batches,ব্যাচসমূহ
-Live Class,লাইভ ক্লাস
-Join Class,ক্লাসে যোগ দিন
-Schedule,সময়সূচি
-Upcoming Classes,আসন্ন ক্লাসসমূহ
-Assignment,অ্যাসাইনমেন্ট
-Assignments,অ্যাসাইনমেন্টসমূহ
-Submit Assignment,অ্যাসাইনমেন্ট জমা দিন
-Due Date,জমা দেওয়ার শেষ তারিখ
+About,পরিচিতি
+About the Instructor,শিক্ষকের পরিচিতি
+Access Denied,প্রবেশাধিকার নেই
+Account,হিসাবের খাত
+Account Name,হিসাবের নাম
+Actions,অ্যাকশনসমূহ
+Active,সক্রিয়
+Activity,কার্যক্রম
+Add,যোগ করুন
+Add Assessment,মূল্যায়ন যোগ করুন
 Add Chapter,অধ্যায় যোগ করুন
+Add Course,কোর্স / বিষয় যোগ করুন
 Add Lesson,পাঠ যোগ করুন
 Add Quiz,কুইজ যোগ করুন
-Course Title,কোর্সের নাম
-Course Description,কোর্সের বিবরণ
-Preview,প্রাকদর্শন
-Video,ভিডিও
-Watch Video,ভিডিও দেখুন
-Resource,সংযুক্তি
-Resources,সংযুক্তিসমূহ
-Download Resource,রিসোর্স ডাউনলোড করুন
-Notes,নোটসমূহ
-Instructor Notes,শিক্ষকের নোট
-Help us improve our course material.,আমাদের কোর্সের মান উন্নয়নে মতামত দিন।
-Under Review,পর্যালোচনার অপেক্ষায়
-Published,প্রকাশিত
-Unpublished,অপ্রকাশিত
-Draft,খসড়া
-Certified Participants,সনদপ্রাপ্ত শিক্ষার্থীবৃন্দ
-Issue Certificate,সনদপত্র প্রদান করুন
-Congratulations!,অভিনন্দন!
-You have successfully completed this course.,আপনি সফলভাবে এই কোর্সটি সম্পন্ন করেছেন।
-Your certificate is ready to download.,আপনার সনদপত্র ডাউনলোড করার জন্য প্রস্তুত।
-View Certificate,সনদপত্র দেখুন
-Share Certificate,সনদপত্র শেয়ার করুন
-Attempts Left,অবশিষ্ট সুযোগ
-Time Left,অবশিষ্ট সময়
-Time Limit,সময়সীমা
-Minutes,মিনিট
-Seconds,সেকেন্ড
-Total Questions,মোট প্রশ্ন
-Passing Marks,পাস নম্বর
-Submit Answer,উত্তর জমা দিন
-Clear Selection,নির্বাচন বাতিল করুন
-Next Question,পরবর্তী প্রশ্ন
-Previous Question,পূর্ববর্তী প্রশ্ন
-Finish Quiz,কুইজ সমাপ্ত করুন
-Summary of Quiz,কুইজের সারাংশ
-Attempted,উত্তর দেওয়া হয়েছে
-Unattempted,উত্তর দেওয়া হয়নি
-Review Answers,উত্তরগুলো পর্যালোচনা করুন
-Correct,সঠিক
-Incorrect,ভুল
-Your Score,আপনার প্রাপ্ত নম্বর
-Result Status,ফলাফলের অবস্থা
-Congratulations, you passed!,অভিনন্দন, আপনি উত্তীর্ণ হয়েছেন!
-Sorry, you did not pass.,দুঃখিত, আপনি পাস করতে পারেননি।
-Try Again,আবার চেষ্টা করুন
-Course Completed,কোর্স সম্পন্ন
-Course Progress,কোর্সের অগ্রগতি
-Lessons Completed,সম্পন্নকৃত পাঠ
-"You have completed {0} of {1} lessons","আপনি {1} টির মধ্যে {0} টি পাঠ সম্পন্ন করেছেন"
-"{0}% completed","{0}% সম্পন্ন হয়েছে"
-Course Overview,কোর্সের পরিচিতি
-Course Content,কোর্সের সূচিপত্র
-What you will learn,আপনি যা শিখবেন
-Prerequisites,প্রয়োজনীয় পূর্বশর্ত
-About the Instructor,শিক্ষকের পরিচিতি
-Instructor Bio,শিক্ষকের বিবরণ
-Enroll in Course,কোর্সে ভর্তি হোন
-Free Course,বিনামূল্যে কোর্স
-Paid Course,পেইড কোর্স
-Price,মূল্য
-Buy Now,এখনই কিনুন
-Access Denied,প্রবেশাধিকার নেই
-Please login to access this course,এই কোর্সে প্রবেশের জন্য লগইন করুন
-Login to Enroll,ভর্তি হতে লগইন করুন
-Go to Course,কোর্সে প্রবেশ করুন
-Back to Courses,কোর্স তালিকায় ফিরে যান
+Add Row,নতুন সারি যোগ করুন
+Add chapter,অধ্যায় যোগ করুন
+Add new address,নতুন ঠিকানা যোগ করুন
+Add option,বিকল্প যোগ করুন
+Add questions,প্রশ্নাবলী যোগ করুন
+Add tag,Tag যোগ করুন
+Address,ঠিকানা
+Address Line 1,ঠিকানা লাইন ১
+Address Line 2,ঠিকানা লাইন ২
+Address Type,ঠিকানা-এর ধরন
+Administrator,অ্যাডমিনিস্ট্রেটর
 All,সকল
+All Courses,সকল কোর্স
+All Live Courses,সকল লাইভ কোর্স
+All Live Courses ({0}),সকল লাইভ কোর্স ({0})
+Amount,টাকার পরিমাণ
+Announcement,ঘোষণা
+Announcements,ঘোষণাসমূহ
+Answer,উত্তর
+Answers,উত্তরসমূহ
+Any status,অনির্দিষ্ট-এর অবস্থা
+Application,অ্যাপ্লিকেশন
+Applications,Applications
+Apply,প্রয়োগ করুন
+Approved,অনুমোদিত
+Apps,অ্যাপস
+Ask a question,প্রশ্ন জিজ্ঞাসা করুন
+Assessment,মূল্যায়ন
+Assessment Name,মূল্যায়ন-এর নাম
+Assessment Type,মূল্যায়ন-এর ধরন
+Assignment,অ্যাসাইনমেন্ট
+Assignments,অ্যাসাইনমেন্টসমূহ
+Attempted,উত্তর দেওয়া হয়েছে
+Attempts Left,অবশিষ্ট সুযোগ
+Audio,অডিও
+Author,নির্মাতা
+Authors,লেখক
+Auto,স্বয়ংক্রিয়
+Back,পূর্ববর্তী
+Back to Courses,কোর্স তালিকায় ফিরে যান
+Batch,ব্যাচ
+Batch Details,ব্যাচ-এর বিস্তারিত
+Batch Name,ব্যাচ-এর নাম
+Batch Settings,ব্যাচ সেটিংস
+Batches,ব্যাচসমূহ
+Billing Address,বিলিং ঠিকানা
+Blue,নীল
+Bookmark,বুকমার্ক করুন
+Bookmarked,বুকমার্ক করা হয়েছে
+Branch,শাখা
+Brand Name,ব্র্যান্ড-এর নাম
+Brand Settings,ব্র্যান্ড সেটিংস
+Buy Now,এখনই কিনুন
+Calendar name,বর্ষপঞ্জি-এর নাম
+Cancel,বাতিল করুন
+Cancelled,বাতিল
+Canvas,ক্যানভাস
+Category,বিভাগ
+Category name,বিভাগ-এর নাম
+Certificate,সনদপত্র
+Certificate of Completion,কোর্স সমাপ্তির সনদপত্র
+Certificate of completion,কোর্স সমাপ্তির সনদপত্র
+Certificates,সনদপত্রসমূহ
+Certified Participants,সনদপ্রাপ্ত শিক্ষার্থীবৃন্দ
+Change,পরিবর্তন
+Channel,চ্যানেল
+Channels,চ্যানেল
+Chapter,অধ্যায়
+Chapters,অধ্যায়সমূহ
+Choose your provider,পরিসেবা উপলব্ধকারী নির্বাচন করুন
+City,শহর / জেলা
+Class Link,ক্লাসের লিংক
+Clear,মেঘমুক্ত আকাশ
+Clear Selection,নির্বাচন বাতিল করুন
+Close,বন্ধ করুন
+Close details,বন্ধ করুন-এর বিস্তারিত
+Closed,বন্ধ
+Collapse,সংকোচন
+Color,রঙ
+Comments,মন্তব্য
+Company,প্রতিষ্ঠান / কোম্পানি
+Company Details,প্রতিষ্ঠান / কোম্পানি-এর বিস্তারিত
+Company Name,প্রতিষ্ঠান / কোম্পানি-এর নাম
+Company Type,প্রতিষ্ঠান / কোম্পানি-এর ধরন
+Complete,সম্পন্ন
+Complete & Continue,সম্পন্ন করে এগিয়ে যান
+Completed,সম্পন্ন হয়েছে
+Completion Rate,সম্পূর্ণকরণ-এর হার
+Confirm,নিশ্চিত করুন
+Congratulations, you passed!
+Congratulations!,অভিনন্দন!
+Connected,সংযুক্ত
+Console,কনশোল
+Continue Learning,পড়াশোনা চালিয়ে যান
+Copy Link,লিংক কপি করুন
+Correct,সঠিক
+Correct Answer,সঠিক উত্তর
+Correct Answers,সঠিক উত্তর
+Country,দেশ
+Coupon Code,কুপন কোড
+Course,কোর্স / বিষয়
+Course Completed,কোর্স সম্পন্ন
+Course Content,কোর্সের সূচিপত্র
+Course Description,কোর্সের বিবরণ
+Course Details,কোর্সের বিবরণ
+Course List,কোর্স / বিষয় তালিকা
+Course Name,কোর্স / বিষয়-এর নাম
+Course Outline,কোর্স রূপরেখা
+Course Overview,কোর্সের পরিচিতি
+Course Progress,কোর্সের অগ্রগতি
+Course Settings,কোর্স / বিষয় সেটিংস
+Course Title,কোর্সের নাম
+Course details,কোর্সের বিবরণ
+Courses,কোর্সসমূহ
+Create,তৈরি করুন
+Create New,নতুন তৈরি করুন
+Currency,মুদ্রা
+Dark,অন্ধকার
+Dashboard,ড্যাশবোর্ড
+Date,তারিখ
+Day,দিন
+Default Currency,ডিফল্ট মুদ্রা
+Default Settings,ডিফল্ট সেটিংস
+Delete,মুছুন
+Delete Chapter,অধ্যায় মুছুন
+Delete Course,কোর্স / বিষয় মুছুন
+Delete Program,প্রোগ্রাম / শ্রেণি মুছুন
+Delete batch,ব্যাচ মুছুন
+Delete program,প্রোগ্রাম / শ্রেণি মুছুন
+Description,বিবরণ
+Desk,ডেস্ক
+Details,বিস্তারিত বর্নণা
+Device,ডিভাইস
+Disable,নিষ্ক্রিয় করুন
+Disabled,নিষ্ক্রিয়
+Discard,অগ্রাহ্য করা
+Discard changes,পরিবর্তন পরিত্যাগ করো
+Disconnect,বিচ্ছিন্ন করুন
+Discount,ছাড়
+Discount Amount,ছাড়ের পরিমাণ
+Discount Percentage,ছাড়ের শতকরা হার
+Discount Type,ছাড়-এর ধরন
+Discussion,আলোচনা
+Discussions,আলোচনাসমূহ
+Document,নথি
+Document name,নথি-এর নাম
+Document type,নথি-এর ধরন
+Download Certificate,সনদপত্র ডাউনলোড করুন
+Download Resource,রিসোর্স ডাউনলোড করুন
+Draft,খসড়া
+Due Date,জমা দেওয়ার শেষ তারিখ
+Duplicate,প্রতিলিপি তৈরি করুন
+Duration,সময়কাল
+Edit,সম্পাদনা করুন
+Edit Assignment,অ্যাসাইনমেন্ট সম্পাদনা করুন
+Edit Category,বিভাগ সম্পাদনা করুন
+Edit Chapter,অধ্যায় সম্পাদনা করুন
+Edit Profile,প্রোফাইল সম্পাদনা
+Edit Program,প্রোগ্রাম / শ্রেণি সম্পাদনা করুন
+Edit question,প্রশ্ন সম্পাদনা করুন
+Education,শিক্ষা ব্যবস্থাপনা
+Education Details,শিক্ষা ব্যবস্থাপনা-এর বিস্তারিত
+Email,ইমেল
+Email Account,ইমেল অ্যাকাউন্ট
+Email Address,ইমেল ঠিকানা
+Employee,কর্মী / কর্মকর্তা
+Enable,সক্রিয় করুন
+Enabled,সক্রিয়
+End Date,End-এর তারিখ
+Enroll,ভর্তি হন
+Enroll Now,এখনই ভর্তি হন
+Enroll Students,শিক্ষার্থীদের যুক্ত করুন
+Enroll in Course,কোর্সে ভর্তি হোন
+Enrolled,ভর্তি হয়েছেন
+Enrolled Courses,আমার অন্তর্ভুক্ত কোর্সসমূহ
+Error,ত্রুটি
+Evaluated By,মূল্যায়নকারী
+Expand,প্রসারণ
+Explanation,ব্যাখ্যা
+Explore More,আরও দেখুন
+Export,রপ্তানি (Export)
+Fail,অনুত্তীর্ণ
+Failed,অনুত্তীর্ণ
+Favicon,ফেভিকন
+Featured,নির্বাচিত
+Featured Courses,নির্বাচিত কোর্সসমূহ
+File Type,ফাইলের ধরন
+File not found,ফাইল পাওয়া যায়নি
 Filter Courses,কোর্স ফিল্টার করুন
-Search Courses,কোর্স অনুসন্ধান করুন
+Filter by type,দ্বারা ফিল্টার করুন-এর ধরন
+Filters,ফিল্টার
+Finish Quiz,কুইজ সমাপ্ত করুন
+First Name,প্রথম নাম
+Fixed Amount,নির্দিষ্ট-এর পরিমাণ
+Free,বিনামূল্যে
+Free Course,বিনামূল্যে কোর্স
+Friday,শুক্রবার
+From,আরম্ভ
+From ,আরম্ভ
+From Date,আরম্ভ-এর তারিখ
+Full Name,পূর্ণ নাম
+Function,ফাংশন
+General,সাধারণ
+Get Certified,সনদপত্র অর্জন করুন
+Go,যান
+Go to Course,কোর্সে প্রবেশ করুন
+Grade,গ্রেড
+Grade Type,গ্রেড-এর ধরন
+Gray,ধূসর
+Green,সবুজ
+Help,সহায়তা
+Help us improve our course material.,আমাদের কোর্সের মান উন্নয়নে মতামত দিন।
+Hidden,আড়াল করা
+Home,প্রথম পাতা
+Host,হোস্ট
+Hours,ঘণ্টা
+Icon,আইকন
+Image,ছবি
+Import,আমদানি (Import)
+In Progress,চলমান
+Incorrect,ভুল
+Input,ইনপুট
+Install,ইনস্টল করুন
+Instructor,শিক্ষক / প্রশিক্ষক
+Instructor Bio,শিক্ষকের বিবরণ
+Instructor Info,প্রশিক্ষকের তথ্য
+Instructor Notes,শিক্ষকের নোট
+Instructors,শিক্ষকমণ্ডলী
+Issue Certificate,সনদপত্র প্রদান করুন
+Issue Date,ইস্যুর তারিখ
+JavaScript,Javascript
+Job,কর্ম
+Job Details,কর্ম সংক্রান্ত বিবরণ
+Join Class,ক্লাসে যোগ দিন
+Join Meeting,মিটিংয়ে যুক্ত হোন
+LMS Settings,এলএমএস সেটিংস
+Label,লেবেল
+Language,ভাষা
+Last Name,শেষ নাম
+Learning,অনলাইন লার্নিং (LMS)
+Leave,ছুটি
+Left to Right,বাঁদিক থেকে ডানদিকে
+Lesson,পাঠ
+Lesson details,পাঠ-এর বিস্তারিত
+Lessons,পাঠসমূহ
+Lessons Completed,সম্পন্নকৃত পাঠ
+Light,হালকা
+Link,লিংক
+Link Copied,লিংক কপি হয়েছে
+Live Class,লাইভ ক্লাস
+Live Session,লাইভ সেশন
+Loading...,লোড করা হচ্ছে...
+Loading…,লোড করা হচ্ছে ...
+Location,অবস্থান
+Locked,তালা লাগানো
+Login,লগইন
+Login to Enroll,ভর্তি হতে লগইন করুন
+Mark as Completed,সম্পন্ন হিসেবে চিহ্নিত করুন
+Marks,নম্বর
+Medium,মাঝারি
+Message,বার্তা
+Meta Description,মেটা বিবরণ
+Meta Image,মেটা ছবি
+Minutes,মিনিট
+Mobile No,মোবাইল নম্বর
+Modified,পরিবর্তিত
+Monday,সোমবার
+More,বেশি
+Mute,নিঃশব্দ
+My Courses,আমার কোর্সসমূহ
+Name,নাম
+New,নতুন
+New Address,নতুন ঠিকানা
+New Announcement,নতুন ঘোষণা
+New Assignment,নতুন অ্যাসাইনমেন্ট
+New Batch,নতুন ব্যাচ
+New Category,নতুন বিভাগ
+New Channel,নতুন চ্যানেল
+New Course,নতুন কোর্স / বিষয়
+New Import,নতুন আমদানি (Import)
+New Job,নতুন কর্ম
+New Job Applicant,নতুন চাকরির আবেদনকারী
+New Live Class,নতুন লাইভ ক্লাস
+New Program,নতুন প্রোগ্রাম / শ্রেণি
+New Quiz,নতুন কুইজ
+New Sign Up,নতুন সাইন আপ
+New Workspace,নতুন ওয়ার্কস্পেস
+New lesson,নতুন পাঠ
+New question,নতুন প্রশ্ন
+Next,পরবর্তী
+Next Lesson,পরবর্তী ক্লাস
+Next Question,পরবর্তী প্রশ্ন
+No,না
+No Notifications,কোনো বিজ্ঞপ্তি নেই
 No courses found,কোনো কোর্স পাওয়া যায়নি
 No lessons available,কোনো পাঠ উপলব্ধ নেই
 No quizzes available,কোনো কুইজ উপলব্ধ নেই
-Bookmark,বুকমার্ক করুন
-Bookmarked,বুকমার্ক করা হয়েছে
-Remove Bookmark,বুকমার্ক বাতিল করুন
-Share Course,কোর্স শেয়ার করুন
-Copy Link,লিংক কপি করুন
-Link Copied,লিংক কপি হয়েছে
-Announcements,ঘোষণাসমূহ
-Announcement,ঘোষণা
-New Announcement,নতুন ঘোষণা
+No results found,কোন ফলাফল পাওয়া যায়নি
+None,শূণ্য
+Not Available for Preview,প্রিভিউয়ের জন্য উপলব্ধ নয়
+Not Permitted,অনুমতি নেই
+Notes,নোটসমূহ
+Notifications,বিজ্ঞপ্তি
+Notify me when available,উপলব্ধ হলে আমাকে অবহিত করুন
+Offline,অফলাইন
+Online,অনলাইন
+Open,উন্মুক্ত
+Open Settings,উন্মুক্ত সেটিংস
+Option,বিকল্প
+Options,বিকল্প
+Orange,কমলা
+Organization,প্রতিষ্ঠান
+Original Amount,আসল-এর পরিমাণ
+Other,অন্য
+Others,অন্যান্য
+Output,আউটপুট
+Overview,সারসংক্ষেপ
+Owner,মালিক
+PAN,প্যান নম্বর
+PDF,PDF
+Paid Course,পেইড কোর্স
+Pass,উত্তীর্ণ
+Passed,উত্তীর্ণ
+Passing Grade,উত্তীর্ণ নম্বর
+Passing Marks,পাস নম্বর
+Passing Percentage,পাসের শতকরা হার
+Password,পাসওয়ার্ড
+Pause,Pause
+Paused,স্থগিত
+Pending,মুলতবি
+Percentage,শতকরা হার
+Phone,ফোন
+Play,চালাও
+Please login to access this course,এই কোর্সে প্রবেশের জন্য লগইন করুন
+Please select an option,দয়া করে একটি বিকল্প নির্বাচন করুন
 Post Announcement,ঘোষণা প্রকাশ করুন
-Message,বার্তা
-Send Message,বার্তা পাঠান
-Live Session,লাইভ সেশন
-Class Link,ক্লাসের লিংক
-Join Meeting,মিটিংয়ে যুক্ত হোন
-Starts at,শুরু হবে
-Duration,সময়কাল
-Hours,ঘণ্টা
-Start Lesson,পাঠ শুরু করুন
-Complete & Continue,সম্পন্ন করে এগিয়ে যান
+Postal Code,পোস্টাল কোড
+Preferences,পছন্দ
+Prerequisites,প্রয়োজনীয় পূর্বশর্ত
+Preview,প্রিভিউ
+Previous,পূর্ববর্তী
+Previous Lesson,পূর্ববর্তী ক্লাস
+Previous Question,পূর্ববর্তী প্রশ্ন
+Price,মূল্য
+Primary,প্রাথমিক
 Profile,প্রোফাইল
-All Courses,সকল কোর্স
-Explore More,আরও দেখুন
-Free,বিনামূল্যে
-Complete,সম্পন্ন
-Completed,সম্পন্ন হয়েছে
-No Notifications,কোনো বিজ্ঞপ্তি নেই
-Evaluated By,মূল্যায়নকারী
+Programs,প্রোগ্রামসমূহ
+Progress,অগ্রগতি
+Provider,পরিসেবা উপলব্ধকারী
+Publish,প্রকাশ করুন
+Published,প্রকাশিত
+Purple,পার্পল
+Python,Python
+Question,প্রশ্ন
+Question Name,প্রশ্ন-এর নাম
+Question Type,প্রশ্ন-এর ধরন
+Questions,প্রশ্নাবলী
+Quiz,কুইজ
+Quiz Result,কুইজের ফলাফল
+Quiz Results,কুইজের ফলাফল
+Quiz result,কুইজের ফলাফল
+Quizzes,কুইজসমূহ
+Rating,মাত্রা
+Read,পড়া
+Red,লাল
+Reload,পুনরায় লোড করুন
+Remove,মুছে ফেলুন
+Remove Bookmark,বুকমার্ক বাতিল করুন
+Replace,প্রতিস্থাপ
+Reply,উত্তর দিন
+Required,আবশ্যকীয়
+Reset,রি-সেট করুন
+Resource,সংযুক্তি
+Resources,সংযুক্তিসমূহ
+Result,ফলাফল
+Result Status,ফলাফলের অবস্থা
+Resume,পুনরায় শুরু করুন
+Retake Quiz,পুনরায় কুইজ দিন
+Retry,আবার চেষ্টা করো
+Review Answers,উত্তরগুলো পর্যালোচনা করুন
+Review the course,কোর্সের ওপর মতামত দিন
+Reviews,মতামত ও রেটিং
+Right to Left,ডানদিক থেকে বাঁদিক
+Role,ভূমিকা (Role)
+Roles,ভূমিকা নির্ধারণ (Roles)
+Route,রুট / লিংক
+Run code,চালান কোড
+Running,চলছে
+SEO,সার্চ ইঞ্জিন অপটিমাইজেশন (SEO)
+Saturday,শনিবার
+Save,সংরক্ষণ করুন
+Save name,সংরক্ষণ করুন-এর নাম
+Saved,সংরক্ষিত হয়েছে
+Schedule,সময়সূচী
+School,বিদ্যালয়
+Score,স্কোর
+Search,অনুসন্ধান
+Search Courses,কোর্স অনুসন্ধান করুন
+Seconds,সেকেন্ড
+Select all,সমগ্র নির্বাচন করুন
+Select category,শ্রেণী নির্বাচন করুন
+Select currency,মুদ্রা নির্বাচন করুন
+Select instructors,শিক্ষকমণ্ডলী নির্বাচন করুন
+Select video,ভিডিও নির্বাচন করুন
+Send Message,বার্তা পাঠান
+Services,সার্ভিস
+Settings,সেটিংস
+Share Certificate,সনদপত্র শেয়ার করুন
+Share Course,কোর্স শেয়ার করুন
+Sidebar,পার্শ্বদণ্ড
+Sign up,সাইন আপ
+Skip,উপেক্ষা করুন
+Snapshot,স্ন্যাপশট
+Sorry, you did not pass.
+Sort by,যে অনুসারে সাজানো হবে
+Source,সোর্স
+Start,শুরু
+Start Course,কোর্স শুরু করুন
+Start Date,শুরু-এর তারিখ
+Start Learning,পড়াশোনা শুরু করুন
+Start Lesson,পাঠ শুরু করুন
+Start Quiz,কুইজ শুরু করুন
+Start Time,শুরুর সময়
+Starts at,শুরু হবে
+Statistics,পরিসংখ্যান
+Status,অবস্থা
+Student,শিক্ষার্থী
+Students,শিক্ষার্থীবৃন্দ
+Subject,বিষয়
+Submit,জমা দিন
+Submit Answer,উত্তর জমা দিন
+Submit Assignment,অ্যাসাইনমেন্ট জমা দিন
+Submit Quiz,কুইজ জমা দিন
+Submitted,জমা দেওয়া হয়েছে
+Success,সফল
+Summary,সারাংশ
+Summary of Quiz,কুইজের সারাংশ
+Sunday,রবিবার
+Syllabus,পাঠ্যক্রম
+System,সিস্টেম
+System Manager,সিস্টেম ম্যানেজার
+Tags,ট্যাগগুলি
+Tasks,কাজসমূহ
+Teal,টিল
+Template,টেমপ্লেট
+Text,টেক্সট
+Text Direction,লেখার দিকবিন্যাস
+Theme,থিম
 This is to certify that,এই মর্মে প্রত্যয়ন করা হচ্ছে যে
+This lesson is not available for preview. Please join the course to access it.,এই পাঠটি প্রিভিউয়ের জন্য উপলব্ধ নয়। কোর্সটিতে যোগদান করে সম্পূর্ণ পাঠ দেখুন।
+Thursday,বৃহস্পতিবার
+Time,সময়
+Time Left,অবশিষ্ট সময়
+Time Limit,সময়সীমা
+Time: ,সময়:
+Title,পদ
+To Date,শেষের তারিখ
+Today,আজকে
+Toggle fullscreen,পূর্ণপর্দা টগল
+Total,মোট
+Total Marks,মোট নম্বর
+Total Questions,মোট প্রশ্নাবলী
+Try Again,আবার চেষ্টা করুন
+Try again,পুনরায় চেষ্টা করুন
+Tuesday,মঙ্গলবার
+Type,ধরন
+URL,URL
+Unattempted,উত্তর দেওয়া হয়নি
+Under Review,পর্যালোচনার অপেক্ষায়
+Unknown error,অজানা ত্রুটি
+Unmute,সশব্দ
+Unpublished,অপ্রকাশিত
+Unread,অপঠিত
+Upcoming Classes,আসন্ন ক্লাসসমূহ
+Upload,হ্যাঁ
+Upload Image,ছবি আপলোড করুন
+User,ব্যবহারকারী
+Username,ব্যবহারকারী নাম
+Users,ব্যবহারকারীগণ
+Value,মান
+Verify Certificate,সনদপত্র যাচাই করুন
+Video,ভিডিও
+View Certificate,সনদপত্র দেখুন
+Visibility,দৃষ্টিগ্রাহ্যতা
+Warning,সতর্কবার্তা
+Watch Video,ভিডিও দেখুন
+Wednesday,বুধবার
+What you will learn,আপনি যা শিখবেন
+Workspace,ওয়ার্কস্পেস
+Workspaces,ওয়ার্কস্পেসসমূহ
+Write a review,মতামত লিখুন
+Wrong Answers,ভুল উত্তর
+Yellow,হলুদ
+Yes,হ্যাঁ
+You have completed {0} of {1} lessons,আপনি {1} টির মধ্যে {0} টি পাঠ সম্পন্ন করেছেন
+You have successfully completed this course.,আপনি সফলভাবে এই কোর্সটি সম্পন্ন করেছেন।
+Your Answer,আপনার উত্তর
+Your Score,আপনার প্রাপ্ত নম্বর
+Your certificate is ready to download.,আপনার সনদপত্র ডাউনলোড করার জন্য প্রস্তুত।
+Zoom,বড় করে দেখা
+Zoom Settings,বড় করে দেখা সেটিংস
+and,and
+certificate,সনদপত্র
+certificates,সনদপত্রসমূহ
+completed,সম্পন্ন হয়েছে
+course,কোর্স / বিষয়
+courses,কোর্সসমূহ
+days,দিন:
+enrolled,ভর্তি হয়েছেন
+esc,Esc
 has successfully completed the,সফলভাবে সম্পন্ন করেছেন
 including all required assessments,সকল প্রয়োজনীয় মূল্যায়ন সহ
-Not Available for Preview,প্রিভিউয়ের জন্য উপলব্ধ নয়
-This lesson is not available for preview. Please join the course to access it.,এই পাঠটি প্রিভিউয়ের জন্য উপলব্ধ নয়। কোর্সটিতে যোগদান করে সম্পূর্ণ পাঠ দেখুন।
-Discard,বাতিল করুন
-Notify me when available,উপলব্ধ হলে আমাকে অবহিত করুন
-Enroll Now,এখনই ভর্তি হন
-Course Details,কোর্সের বিবরণ
-Course Outline,কোর্স রূপরেখা
-Instructor Info,প্রশিক্ষকের তথ্য
-Quiz Result,কুইজের ফলাফল
-Total Questions,মোট প্রশ্ন
-Correct Answers,সঠিক উত্তর
-Wrong Answers,ভুল উত্তর
-Passing Grade,উত্তীর্ণ নম্বর
-Your Score,আপনার প্রাপ্ত নম্বর
-Passed,উত্তীর্ণ
-Failed,অনুত্তীর্ণ
-Retake Quiz,পুনরায় কুইজ দিন
-Certificate of Completion,কোর্স সমাপ্তির সনদপত্র
-Download Certificate,সনদপত্র ডাউনলোড করুন
+lesson,পাঠ
+lessons,পাঠসমূহ
+minutes,মিনিট
+others,অন্যান্য
+question,প্রশ্ন
+questions,প্রশ্নাবলী
+saving...,সংরক্ষণ করা হচ্ছে...
+section,সেকশন
+sections,সেকশনসমূহ
+students,শিক্ষার্থীবৃন্দ
+warning,সতর্কবার্তা
+warnings,সতর্কবার্তা
+{0}% completed,{0}% সম্পন্ন হয়েছে
