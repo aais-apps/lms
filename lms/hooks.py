@@ -4,13 +4,13 @@ from . import __version__ as app_version
 
 app_name = "lms"
 app_title = "Learning"
-app_publisher = "Frappe"
-app_description = "Open Source Learning Management System built with Frappe Framework"
-app_icon_url = "/assets/lms/images/lms-logo.png"
+app_publisher = "Paradox Tech BD / AAIS"
+app_description = "Integrated Learning Management System"
+app_icon_url = "/assets/lms/frontend/learning.svg"
 app_icon_title = "Learning"
 app_icon_route = "/lms"
-app_color = "grey"
-app_email = "jannat@frappe.io"
+app_color = "blue"
+app_email = "support@paradox-bd.com"
 app_license = "AGPL"
 required_apps = []
 

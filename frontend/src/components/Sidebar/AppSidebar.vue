@@ -189,19 +189,6 @@
 							/>
 						</button>
 					</Tooltip>
-					<Tooltip :text="__('Powered by Frappe Learning')">
-						<a
-							href="https://frappe.io/learning"
-							v-external
-							class="flex"
-							:aria-label="__('Powered by Frappe Learning')"
-						>
-							<span
-								class="lucide-zap size-4 text-ink-gray-7 cursor-pointer"
-								aria-hidden="true"
-							/>
-						</a>
-					</Tooltip>
 				</div>
 				<Tooltip
 					:text="
@@ -228,13 +215,13 @@
 			v-model="showHelpModal"
 			v-model:articles="articles"
 			appName="learning"
-			title="Frappe Learning"
+			title="Learning"
 			:logo="LMSLogo"
 			:afterSkip="(step) => capture('onboarding_step_skipped_' + step)"
 			:afterSkipAll="() => capture('onboarding_steps_skipped')"
 			:afterReset="(step) => capture('onboarding_step_reset_' + step)"
 			:afterResetAll="() => capture('onboarding_steps_reset')"
-			docsLink="https://docs.frappe.io/learning"
+			docsLink=""
 		/>
 		<IntermediateStepModal
 			v-model="showIntermediateModal"
