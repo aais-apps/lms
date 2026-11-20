@@ -31,10 +31,9 @@ function translate(message, replace) {
 	}
 }
 
-function fetchTranslations(lang) {
+function fetchTranslations() {
 	createResource({
 		url: 'lms.lms.api.get_translations',
-		cache: 'translations',
 		auto: true,
 		transform: (data) => {
 			window.translatedMessages = data

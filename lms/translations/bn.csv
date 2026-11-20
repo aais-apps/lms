@@ -317,7 +317,7 @@ Confirm clearing demo data?,ডেমো ডেটা মুছে ফেলা 
 Confirm your action to delete,মুছে ফেলার পদক্ষেপটি নিশ্চিত করুন
 Confirmation Email Sent,নিশ্চিতকরণ ইমেইল পাঠানো হয়েছে
 Confirmation Email Template,নিশ্চিতকরণ ইমেইল টেমপ্লেট
-Congratulations, you passed!
+"Congratulations, you passed!","অভিনন্দন, আপনি উত্তীর্ণ হয়েছেন!"
 Congratulations on getting certified!,সার্টিফিকেট অর্জনের জন্য আপনাকে অভিনন্দন!
 Congratulations!,অভিনন্দন!
 Connect,সংযুক্ত করুন
@@ -1273,7 +1273,7 @@ Skip,উপেক্ষা করুন
 Snapshot,স্ন্যাপশট
 Social media,সামাজিক যোগাযোগ মাধ্যম
 Sold Out,স্টক শেষ
-Sorry, you did not pass.
+"Sorry, you did not pass.","দুঃখিত, আপনি উত্তীর্ণ হননি।"
 Sort by,যে অনুসারে সাজানো হবে
 Source,সোর্স
 Staff,কর্মী
@@ -1677,3 +1677,48 @@ you can,আপনি পারেন
 {} Granted,{} অনুমোদিত
 {} Passed,{} উত্তীর্ণ
 {} Published,{} প্রকাশিত
+Score Out Of,মোট নম্বর
+Search for an icon,আইকন খুঁজুন
+Seat Count,আসনসংখ্যা
+Seat Left,অবশিষ্ট আসন
+Seats Left,অবশিষ্ট আসন
+Seat count cannot be negative.,আসনসংখ্যা ঋণাত্মক হতে পারে না।
+See all,সব দেখুন
+Select a Programming Exercise,একটি প্রোগ্রামিং অনুশীলন নির্বাচন করুন
+Select a quiz,একটি কুইজ নির্বাচন করুন
+Select an Assignment,একটি অ্যাসাইনমেন্ট নির্বাচন করুন
+Send Confirmation Email,নিশ্চিতকরণের ইমেল পাঠান
+Send Email to {0},{0}-কে ইমেল পাঠান
+Session End Time,সেশন শেষের সময়
+Session Start Time,সেশন শুরুর সময়
+Session refreshed successfully,সেশন সফলভাবে নবায়ন করা হয়েছে
+Set your Password,আপনার পাসওয়ার্ড নির্ধারণ করুন
+Setting up payment gateway,পেমেন্ট গেটওয়ে সেটআপ করা হচ্ছে
+Setting up,সেটআপ করা হচ্ছে
+Share on,শেয়ার করুন
+Short Description,সংক্ষিপ্ত বিবরণ
+Short Introduction,সংক্ষিপ্ত পরিচিতি
+Short description of the batch,ব্যাচের সংক্ষিপ্ত বিবরণ
+Show Answer,উত্তর দেখুন
+Show Answers,উত্তরগুলো দেখুন
+Show Submission History,জমা দেওয়ার ইতিহাস দেখুন
+Show day view in timetable,সময়সূচিতে দিনভিত্তিক দৃশ্য দেখান
+Show live class,লাইভ ক্লাস দেখান
+Shuffle Questions,প্রশ্নের ক্রম এলোমেলো করুন
+Signup Settings,নিবন্ধন সেটিংস
+Signups,নিবন্ধন
+Skill Details,দক্ষতার বিবরণ
+Skill Name,দক্ষতার নাম
+Skill,দক্ষতা
+Skills,দক্ষতাসমূহ
+Slots,সময়সীমা
+Scheduled Flow,নির্ধারিত প্রবাহ
+Send Notification for Published Batches,প্রকাশিত ব্যাচের বিজ্ঞপ্তি পাঠান
+Send Notification for Published Courses,প্রকাশিত কোর্সের বিজ্ঞপ্তি পাঠান
+Send Payment Reminders for Batch,ব্যাচের পরিশোধের অনুস্মারক পাঠান
+Send Payment Reminders for Course,কোর্সের পরিশোধের অনুস্মারক পাঠান
+Send calendar invite for evaluations,মূল্যায়নের জন্য ক্যালেন্ডার আমন্ত্রণ পাঠান
+Show Tab in Batch,ব্যাচে ট্যাব দেখান
+Show USD Equivalent,মার্কিন ডলারে সমমূল্য দেখান
+Slot Times are overlapping for some schedules.,কয়েকটি সময়সূচির সময় একই সময়ে পড়েছে।
+"Dear {{ member_name }},\n\nYou have been enrolled in our upcoming batch {{ batch_name }}.\n\nThanks,\nFrappe Learning","প্রিয় {{ member_name }},\n\nআপনাকে আমাদের আসন্ন {{ batch_name }} ব্যাচে ভর্তি করা হয়েছে।\n\nধন্যবাদ,\nFrappe Learning"
